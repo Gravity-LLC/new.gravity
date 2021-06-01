@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import {Main} from '../layouts/index'
 import A from '../components/a/A'
 import {useRouter} from 'next/router';
-import Lange from '../utils/language'
+import Lange from '../components/utils/language';
 const Styles = ()=> (
     <style jsx="true">
         {`

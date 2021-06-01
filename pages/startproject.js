@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import {Main} from '../layouts/index';
-import Lange from '../utils/language';
+import Lange from '../components/utils/language';
 import axios from 'axios';
 
 export const startproject = (props) => {

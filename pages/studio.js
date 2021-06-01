@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import {Main} from '../layouts/index';
-import Lange from '../utils/language';
+import Lange from '../components/utils/language';
 
 const partnersLogo = [
     'bekhatar.png', 'fsvc.png', 'wsp.png', 'amb.png', 'eshata.png', 'humo.png',

@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import Lange from '../utils/language';
+import Lange from '../components/utils/language';
 import {Main} from '../layouts/index'
 
 function index(props) {

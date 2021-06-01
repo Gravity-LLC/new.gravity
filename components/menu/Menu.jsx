@@ -1,7 +1,7 @@
 import A from '../a/A';
 import styles from './menu.module.css';
 import {connect} from 'react-redux';
-import Lange from '../../utils/language';
+import Lange from '../utils/language';
 import Footer from '../footer/Footer';
 import * as actions from '../../actions/actions'
 import { bindActionCreators } from 'redux';

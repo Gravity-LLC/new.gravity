@@ -1,6 +1,6 @@
 import {Main} from '../layouts/index';
 import {connect} from 'react-redux';
-import Lange from '../utils/language'
+import Lange from '../components/utils/language';
 function services(props) {
     const {lange} = props;
     const [langeArr] = Lange(lange);

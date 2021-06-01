@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import styles from './header.module.css';
 import A from '../a/A';
-import Lange from '../../utils/language';
+import Lange from '../utils/language';
 import {connect} from 'react-redux'
 import { bindActionCreators } from 'redux';
 import * as actions from '../../actions/actions'
