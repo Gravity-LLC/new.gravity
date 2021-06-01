@@ -1,0 +1,66 @@
+
+.header p{
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(38, 38, 38, 0.5);
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0px;
+    margin-right: 50px;
+}
+.header ul li{
+    align-self: center;
+    height: 100%;
+    margin-right: 30px;
+}
+.header ul li:last-child{
+    margin-right: 0px;
+}
+.header ul li a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+    display: inline-block;
+    padding: 4px 0px;
+    position: relative;
+}
+/* .header ul li a::before{
+    left: 100%;
+}
+.header ul li a:hover::before{
+    content: "";
+    height: 2px;
+    background-color:  rgba(0,0,0, .5);
+    width: 0%;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    animation: lineEf .2s linear 0s 1 alternate forwards;
+}
+.header ul li a:hover::before.header ul li a:active::before{
+    background-color:  rgba(0,0,0, .3);
+} */
+.header ul li a:hover{
+    color: rgba(0,0,0, .5) !important;
+}
+.header ul li a:active{
+    color: rgba(0,0,0, .3) !important;
+}
+/* @keyframes lineEf {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+} */
+.toggler_navbar:hover line{
+    stroke: rgba(0,0,0, .5);
+    transition: all .2s linear;
+    
+}

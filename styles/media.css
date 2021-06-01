@@ -1,0 +1,206 @@
+/*xl*/
+@media only screen and (max-width: 1200px){}
+
+/*lg*/
+@media only screen and (max-width: 992px){
+	#studio .arch_bg_wrapper{
+        max-height: initial;
+    }
+    #studio .partners-wrapper{
+        grid-template-columns: repeat(4,1fr);
+    }
+    #studio .tehnologi-wrapper{
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 80px 40px;
+    }
+}
+/*md*/
+@media only screen and (max-width: 768px){
+    #home_page h1{
+        font-size: 36px !important;
+        line-height: 40px !important;
+    }
+    #menu-main ul li a{
+        font-size: 36px !important;
+        line-height: 42px !important;
+    }
+    #menu-main .address h4{
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+    #services .service-image{
+        justify-content:  start;
+    }
+    #studio .info_project, #studio .achievements{
+        padding: 27px 40px;
+    }
+    #studio .partner, #studio .tehnologi{
+        padding: 27px 40px;
+    }
+    #studio .partners-wrapper{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #studio .tehnologi-wrapper{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 80px 40px;
+    }
+    #studio .command_image{
+        margin-top: 50px;
+    }
+    .detiledInfoWrapper .heading h1{
+        font-size: 62px;
+    }
+    #cases .cases-wrapper .cases-item{
+        min-height: 350px;
+    }
+    #cases .cases-item .portfolio-main, #cases .cases-wrapper .cases-item .portfolio-description, #cases .cases-wrapper .cases-item .portfolio-description>div{
+        padding: 25px
+    }
+    #cases .cases-wrapper .cases-item h3{
+        font-size: 22px;
+    }
+}
+/*sm*/
+@media only screen and (max-width: 576px){
+    .p-20{
+        padding: 10px 0px !important;
+    }
+    #home_page h1{
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+    header .logo{
+        width: 130px !important;
+    }
+    .header_toggler_navbar__pkEMh svg{
+        width: 25px;
+    }
+    .header_toggler_navbar__pkEMh svg line {
+        stroke-width: 4px;
+    }
+    .footer_footer__1pkyR ul li{
+        margin-right: 10px !important;
+    }
+    #menu-main ul li a{
+        font-size: 24px !important;
+        line-height: 29px !important;
+    }
+    #menu-main .address h4{
+        font-size: 18px !important;
+        line-height: 30px !important;
+    }
+    header .x svg{
+        width: 36px;
+        height: 36px;
+    }
+    h2.heading{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #services .services-lists{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    #startProject ul li{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    #startProject .btn{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    #studio h1{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 35px;
+        color: #000000;
+    }
+    #studio .info_project, #studio .achievements{
+        padding: 20px;
+    }
+    #studio .info_project .info_project-item .num{
+        font-size: 76px;
+        line-height: 76px;
+    }
+    #studio .info_project .info_project-item p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #studio .achievements ul li{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #studio h2{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    #studio .arch_bg{
+        min-height: 300px;
+    }
+    #studio .partners-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px 20px;
+    }
+    #studio .partner, #studio .tehnologi{
+        padding: 20px;
+    }
+    .detiledInfoWrapper .heading h1{
+        font-size: 42px;
+    }
+    .detiledInfoWrapper .heading{
+        padding: 0px 20px;
+    }
+    .detiledInfoWrapper .heading p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #cases .cases-wrapper .cases-item{
+        min-height: 300px;
+    }
+    #cases .cases-wrapper .cases-item h3 {
+        font-size: 20px;
+    }
+    #cases .cases-wrapper .cases-item h6 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #cases .cases-wrapper .cases-item p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #cases .cases-item .portfolio-main, #cases .cases-wrapper .cases-item .portfolio-description, #cases .cases-wrapper .cases-item .portfolio-description>div{
+        padding: 20px
+    }
+}
+@media only screen and (max-width: 330px){
+    #studio .info_project .info_project-item .num{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    #studio .info_project, #studio .achievements{
+        padding: 10px;
+    }
+    #studio h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    #studio .arch_bg{
+        min-height: 270px;
+    }
+    #studio .partner, #studio .tehnologi{
+        padding: 10px;
+    }
+    .detiledInfoWrapper .heading h1{
+        font-size: 36px;
+    }
+    #cases .cases-wrapper .cases-item{
+        min-height: 250px;
+    }
+    #cases .cases-wrapper .cases-item h3 {
+        font-size: 18px;
+    }
+    #cases .cases-item .portfolio-main, #cases .cases-wrapper .cases-item .portfolio-description, #cases .cases-wrapper .cases-item .portfolio-description>div{
+        padding: 15px 10px
+    }
+}

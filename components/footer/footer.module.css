@@ -1,0 +1,38 @@
+.footer ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0px;
+    flex-wrap: nowrap;
+}   
+.footer ul li{
+    margin-right: 30px;
+}
+.footer ul li a{
+    color: rgba(22, 16, 16, 0.5);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    transition: all .1s linear;
+}
+.footer ul li a:hover{
+    color: rgba(22, 16, 16, 0.8);
+    transition: all .1s linear;
+}
+.footer ul li a:active{
+    color: black;
+}
+.footer button{
+    padding: 5px;
+    color: rgba(22, 16, 16, 0.5);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    transition: all .1s linear;
+}
+.footer button:hover{
+    color: rgba(22, 16, 16, 0.8);
+    transition: all .1s linear;
+}
+.footer button:active{
+    color: black;
+}
