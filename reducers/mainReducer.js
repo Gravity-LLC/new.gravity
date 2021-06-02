@@ -9,7 +9,8 @@ export const mainReducer = (state = initialState, action)=>{
         case 'INITIAL-LANGE': 
             return{
                 ...state,
-                lange: action.payload
+                lange: action.payload || 'ru',
+                sideBar: false
             };
         case 'RU-LANGE':
             return {

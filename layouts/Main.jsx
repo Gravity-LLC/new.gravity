@@ -8,10 +8,11 @@ import AdminContentSpinner from '../components/spinner/adminContentSpinner'
 import { bindActionCreators } from 'redux';
 import * as actions from '../actions/actions';
 
+
 function Main(props) {
     const {initialLange, mainClass, headerClass} = props;
     const [loading, setLoading] = useState(true);
-    const {sideBar} = props
+    const {sideBar} = props;
     useEffect(()=>{
         initialLange(localStorage.getItem('lange'))
         setLoading(true)
@@ -19,6 +20,7 @@ function Main(props) {
             setLoading(false)
         }, 1500)
     },[])
+    
     const Content = props.content
     return (
         <>
@@ -47,7 +49,7 @@ function Main(props) {
 const mapStateToProps = (state)=>{
     const {sideBar} = state.mainReducer
     return{
-        sideBar
+        sideBar,
     }
 }
 const mapDispatchToProps = (dispatch) => {
