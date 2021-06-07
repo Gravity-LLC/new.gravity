@@ -1,4 +1,3 @@
-import React from 'react';
 import { connect } from 'react-redux';
 import {Main} from '../layouts/index';
 import Lange from '../components/utils/language';
@@ -33,24 +32,46 @@ export const startproject = (props) => {
                     </h2>
                 </div>
                 <div style="color: white">
-                    Ина кадмша акаи Акбар иден
+                    Ина кадмша акаи Акбар V2.
                 </div>
             </div>
         `;
+        const akaiAkbar = 'akbarsulaymonov@gmail.com';
         const data = {
             key: 'AjqjezC8Q47yv5LbdOE3UvcCQJ7iUEgCiYCuouHZkLHqivCFW9sjANRFNci3Ms6N',
             subject: 'Заказ',
             text: text,
-            email: 'akbarsulaymonov@gmail.com',
+            email: 'nazirazizov666@gmail.com',
         }
-        axios.post('https://mail.imruz.com/api/ApiSendMail',data)
-            .then(res=>{
-                console.log(res)
-            })
-            .catch(rej => {
-                console.log(rej)
-            })
-        e.target.reset()
+        let warn = document.querySelector('.warn');
+        const {success, nameWarn, phoneWarn, serviceWarn} = startProject.validateText
+        
+        if(nameEl.length > 2 && phoneEl.length > 9 && checkeds.length > 0){
+            axios.post('https://mail.imruz.com/api/ApiSendMail',data)
+                .then(res=>{
+                    console.log(res)
+                })
+                .catch(rej => {
+                    console.log(rej)
+                })
+            e.target.reset();
+            warn.classList.add('text-success')
+            warn.innerHTML = success;
+        }else{
+            warn.classList.remove('text-success')
+            if(nameEl.length < 2) 
+                warn.innerHTML = nameWarn;
+            if(phoneEl.length < 9)
+                warn.innerHTML = phoneWarn;
+            if(checkeds.length <= 0)
+                warn.innerHTML = serviceWarn;
+
+            if(nameEl.length < 2 && phoneEl.length < 9)
+                warn.innerHTML = `${nameWarn} <br/> ${phoneWarn}`;
+            if(nameEl.length < 2 && phoneEl.length < 9 && checkeds.length <= 0)
+                warn.innerHTML = `${serviceWarn}</br> ${nameWarn} <br/> ${phoneWarn}`;
+            
+        }
     }
     function handleChecked(e){
         const {parentElement, checked} =e.target;
@@ -67,42 +88,49 @@ export const startproject = (props) => {
     return <Main content={()=>(
         <>
             <div className="container pb-5 mb-sm-5 mb-4" id="startProject">
-                <h2 className="heading my-sm-5 my-4 animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".5s">{startProject.heading1}</h2>
-                <ul className="animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".6s">
-                    <li>Душанбе, пр. Рудаки 93/1</li>
-                    <li><a href="" target="_blanck">+992 111-111-789</a></li>
-                    <li><a href="" target="_blanck">info@gravity.tj</a></li>
-                </ul>
-                <h2 className="heading my-sm-5 my-4 animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".7s">{startProject.heading2}</h2>
-                <form onSubmit={handleSubmit} className="animate__animated animate__fadeIn wow"  data-wow-duration=".5s" data-wow-delay=".8s">
-                    <div className="category ">
-                        {
-                            startProject.categories.map((item, idx)=>(
-                                <div key={idx} className="d-inline-block">
-                                    <input onChange={handleChecked} type="checkbox" id={`category${idx}`} />
-                                    <label htmlFor={`category${idx}`} className="btn " >{item}</label>
+                <div className="row d-flex pos">
+                    <div className="col-md-8 col-12 or-md-1">
+                        <h2 className="heading my-sm-5 my-4 animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".7s">{startProject.heading2}</h2>
+                        <form onSubmit={handleSubmit} className="animate__animated animate__fadeIn wow"  data-wow-duration=".5s" data-wow-delay=".8s">
+                            <div className="category ">
+                                {
+                                    startProject.categories.map((item, idx)=>(
+                                        <div key={idx} className="d-inline-block">
+                                            <input onChange={handleChecked} type="checkbox" id={`category${idx}`} />
+                                            <label htmlFor={`category${idx}`} className="btn " >{item}</label>
+                                        </div>
+                                    ))
+                                }
+                            </div>
+                            <div className="row">
+                                <div className="col-md-6 col-12 mt-4">
+                                    <div>
+                                        <input id="nameEl" type="text" name="name" className="form-control" placeholder={startProject.forms.name} />
+                                    </div>
                                 </div>
-                            ))
-                        }
+                                <div className="col-md-6 col-12 mt-4">
+                                    <div>
+                                        <input id="phoneEl" type="number" name="phone" className="form-control" placeholder={startProject.forms.phone} />
+                                    </div>
+                                </div>
+                                <div className="col-12 mt-4">
+                                    <div className="sendMsg h-100">
+                                        <button className="btn">{startProject.forms.send}</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <span className="warn"></span>
                     </div>
-                    <div className="row">
-                        <div className="col-md-4 col-12 mt-4">
-                            <div>
-                                <input id="nameEl" type="text" name="name" className="form-control" placeholder={startProject.forms.name} />
-                            </div>
-                        </div>
-                        <div className="col-md-4 col-12 mt-4">
-                            <div>
-                                <input id="phoneEl" type="number" name="phone" className="form-control" placeholder={startProject.forms.phone} />
-                            </div>
-                        </div>
-                        <div className="col-md-4 col-12 mt-4">
-                            <div className="sendMsg h-100">
-                                <button className="btn">{startProject.forms.send}</button>
-                            </div>
-                        </div>
+                    <div className="col-md-4 col-12 or-md-2">
+                        <h2 className="heading my-sm-5 my-4 animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".5s">{startProject.heading1}</h2>
+                        <ul className="animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".6s">
+                            <li>{langeArr.office}</li>
+                            <li><a href="" target="_blanck">+992 111-111-789</a></li>
+                            <li><a href="" target="_blanck">info@gravity.tj</a></li>
+                        </ul>
                     </div>
-                </form>
+                </div>
             </div>
         </>
     )} />

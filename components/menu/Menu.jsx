@@ -50,7 +50,7 @@ function Menu(props) {
                                     <div className="address">
                                         <h4><a href="">(+992) 111-111-789</a></h4>
                                         <h4><a href="">info@gravity.tj</a></h4>
-                                        <h4>Душанбе, пр. Рудаки 93/1</h4>
+                                        <h4>{langeArr.office}</h4>
                                     </div>
                                 </div>
                             </div>

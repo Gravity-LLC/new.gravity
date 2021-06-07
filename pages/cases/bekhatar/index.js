@@ -17,7 +17,7 @@ export const index = (props) => {
                     <div className="mb-5 " style={{overflow: 'hidden'}}>
                         <h6>{langeText.customerHeading}</h6>
                         {
-                            langeText.customerTexts.map((el, idx) => <p className="col-md-7 px-0 animate__animated animate__fadeInDown wow" data-wow-duration="1.2s" key={idx}>{el}</p>)
+                            langeText.customerTexts.map((el, idx) => <p className="col-md-7 px-0 animate__animated animate__fadeInDown" key={idx}>{el}</p>)
                         }
                     </div>
                     <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.5s">

@@ -10,11 +10,11 @@ function Footer(props) {
         <footer className={`p-20 ${styles.footer}`}>
             <div className="container-fluid d-flex flex-sm-row flex-column justify-content-between align-items-sm-center">
                 <ul>
-                    <li className="d-sm-inline-block d-none"><A href="/" className={colorText}>LinkedIn</A></li>
-                    <li><A href="/" className={colorText}>Facebook</A></li>
-                    <li><A href="/" className={colorText}>Instagram</A></li>
-                    <li><A href="/" className={colorText}>Telegram</A></li>
-                    <li className="d-sm-inline-block d-none"><A href="/" className={colorText}>Github</A></li>
+                    <li className="d-sm-inline-block d-none"><a target="_blanck" href="https://www.linkedin.com/company/gravity-studio-tj" className={colorText}>LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/gravity.tj" target="_blanck" className={colorText}>Facebook</a></li>
+                    <li><a href="https://www.instagram.com/gravity.tj" target="_blanck" className={colorText}>Instagram</a></li>
+                    <li><a href="https://t.me/gravity_tj" target="_blanck" className={colorText}>Telegram</a></li>
+                    <li className="d-sm-inline-block d-none"><a href="https://t.me/gravity_tj" target="_blanck" className={colorText}>Github</a></li>
                 </ul>
                 <div className="d-flex mt-sm-0 mt-3">
                     <button className={`btn ${colorText}`} onClick={ruLange}>Rus</button>

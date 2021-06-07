@@ -11,7 +11,8 @@ import * as actions from '../actions/actions';
 function Detiled(props) {
     const {initialLange, mainClass, headerClass} = props;
     const [loading, setLoading] = useState(true);
-    const {sideBar} = props
+    const {sideBar} = props;
+    const [headerFixed, setHeaderFixed] = useState('')
     useEffect(()=>{
         initialLange(localStorage.getItem('lange'))
         setLoading(true)
@@ -25,14 +26,27 @@ function Detiled(props) {
     useEffect(() => {
         document.addEventListener('wheel', e =>{
             if(window.pageYOffset === 0 && e.deltaY < 0){
-                setCont(true)
+                setCont(true) 
+                document.body.classList.add('scrollbarNone')
+                
             }
         })
        
     }, [])
+    useEffect(()=>{
+        window.addEventListener('scroll', (e)=>{
+            console.log(window.pageYOffset)
+            if(window.pageYOffset > 100){
+                setHeaderFixed('header_fixed2')
+            }else{
+                setHeaderFixed('')
+            }
+        })
+    }, [])
     function wheelMain(e) {
         if(e.deltaY > 0 ) {
             setCont(false)
+            setTimeout(()=> document.body.classList.remove('scrollbarNone'), 500)
         }
     }
     let event = null
@@ -92,14 +106,13 @@ function Detiled(props) {
                         <div className="col-md-4 col-5 detyled_line"></div>
                     </div>
                 </div>
-                <div onTouchStart={handleTouchStart} onTouchMove={handleTouchEvent2}  className={cont ? 'contDetileFadeIn': 'contDetileFadeOut'}>
+                <div onTouchStart={handleTouchStart} onTouchMove={handleTouchEvent2}  className={cont ? 'contDetileFadeIn scrollbarNone': 'contDetileFadeOut scrollbarNone'}>
                     <div className={`d-flex justify-content-between h-100 align-items-between flex-column ${sideBar ? 'borderIn-20': 'borderOut-20'}`} style={{minHeight: '100vh', }}>
-                        <Header darkAttr={true} className={headerClass} />
+                        <Header darkAttr={true} className={`${headerClass} ${headerFixed}`} />
                         <main className={`d-block p-20 ${mainClass}`}>
                             {
                                 !loading ?<Content />: null
                             }
-                            
                         </main>
                         <Footer/>
                     </div>

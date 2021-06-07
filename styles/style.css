@@ -4,6 +4,60 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+.scrollbarNone::-webkit-scrollbar {
+	display: none;
+}
+.scrollbarNone::-moz-scrollbar {
+	display: none;
+}
+.scrollbarNone::-ms-scrollbar {
+	display: none;
+}
+.scrollbarNone::-o-scrollbar {
+	display: none;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+    background-color: #f9f9fd;
+	
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #223c50;
+	border-radius: 10px;
+	margin-right: 3px;
+}
+*::-moz-scrollbar {
+    width: 7px;
+    background-color: #f9f9fd;
+	
+}
+*::-moz-scrollbar-thumb {
+    background-color: #223c50;
+	border-radius: 10px;
+	margin-right: 3px;
+}
+*::-ms-scrollbar {
+    width: 7px;
+    background-color: #f9f9fd;
+	
+}
+*::-ms-scrollbar-thumb {
+    background-color: #223c50;
+	border-radius: 10px;
+	margin-right: 3px;
+}
+*::-o-scrollbar {
+    width: 7px;
+    background-color: #f9f9fd;
+	
+}
+*::-o-scrollbar-thumb {
+    background-color: #223c50;
+	border-radius: 10px;
+	margin-right: 3px;
+}
 .btn:focus{
     box-shadow: 0px 0px 0px transparent;
 }
@@ -201,6 +255,8 @@ h2.heading{
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	min-height: 130px;
+	margin-top: 20px;
 }
 #services .services-lists{
 	font-weight: 500;
@@ -210,7 +266,7 @@ h2.heading{
 	list-style:  none;
 }
 #services .services-lists li{
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 }
 
 
@@ -224,6 +280,12 @@ h2.heading{
 #startProject ul li a{
 	color: black;
 }
+.warn{
+	font-size: 14px;
+	color: red;
+	display: inline-block;
+	margin-top: 20px;
+}
 #startProject ul li a:hover{
 	text-decoration: none;
 	color: rgba(0, 0, 0, .5);
@@ -232,16 +294,16 @@ h2.heading{
 	color: rgba(0, 0, 0, .8);
 }
 #startProject .btn{
-	padding: 10px 25px;
+	padding: 8px 15px;
 	border-radius: 0px;
 	background: #F0F2F5;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 22px;
 	color: #868B94;
 	position: relative;
 	overflow: hidden;
-	margin-right: 20px;
+	margin-right: 15px;
 }
 #startProject .category input{
 	display: none;
@@ -298,9 +360,7 @@ h2.heading{
 }
 #startProject form .form-control:focus{
 	box-shadow: 0px 0px 0px transparent;
-	color: white;
-	background-color: black;
-	transition: all .2s ease;
+	color: black;
 }
 #startProject form .sendMsg .btn{
 	min-height: 60px;
@@ -704,22 +764,24 @@ h2.heading{
 	}
 }
 .contDetileFadeIn{
-	animation: contDetileFadeIn 2s linear 0s 1 alternate forwards;
+	animation: contDetileFadeIn 3.2s ease 0s 1 alternate forwards;
 }
 @keyframes contDetileFadeIn {
 	0%{
 		height: auto;
 		overflow: auto;
 		display: block;
+		opacity: 1;
 	}
 	100%{
 		height: 0px;
 		overflow: hidden;
 		display: none;
+		opacity: 0;
 	}
 }
 .contDetileFadeOut{
-	animation: contDetileFadeOut 1s linear 0s 1 alternate forwards;
+	animation: contDetileFadeOut 3.2s ease 0s 1 alternate forwards;
 }
 @keyframes contDetileFadeOut {
 	0%{
@@ -770,5 +832,26 @@ h2.heading{
 		transform: translateY(50px);
 		height: 10px;
 		opacity: 0;
+	}
+}
+
+
+.header_fixed2{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	backdrop-filter: saturate(180%) blur(5px);
+	background-color: white;
+	box-shadow: 0px 1px 1px rgb(131, 127, 127);
+	animation: headerFix 2s ease 0s 1 initial forwards;
+	z-index: 10;
+}
+@keyframes headerFix {
+	0%{
+		top: -200px;
+	}
+	100%{
+		top: 0px
 	}
 }

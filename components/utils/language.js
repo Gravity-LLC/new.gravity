@@ -2,6 +2,7 @@ import {casesEn, casesRu} from './cases_lange'
 const langs = [
     {
         lange: 'ru',
+        office: 'Душанбе, пр. Рудаки 93/1',
         navbarNav:[
             {text:"Студия", link: '/studio'},
             {text:"Кейсы", link: '/cases'},
@@ -53,6 +54,12 @@ const langs = [
                 name: 'Имя',
                 phone: 'Телефон',
                 send: 'Отправить',
+            },
+            validateText: {
+                success: 'Ваша заявка на проект успешно отправленна',
+                nameWarn: 'Заполните поле имени',
+                phoneWarn: 'Вы ввели недостаточно символов в поле телефон',
+                serviceWarn: 'Выберите тип обслуживани'
             }
         },
         studio: {
@@ -90,6 +97,7 @@ const langs = [
     },
     {
         lange: 'en',
+        office: 'Dushanbe, Rudaki Ave. 93/1',
         navbarNav:[
             {text:"Studio", link: '/studio'},
             {text:"Cases", link: '/cases'},
@@ -141,6 +149,12 @@ const langs = [
                 name: 'Name',
                 phone: 'Telephone',
                 send: 'Send',
+            },
+            validateText: {
+                success: 'Your project application has been successfully sent',
+                nameWarn: 'Fill in the name field',
+                phoneWarn: 'You have entered insufficient characters in the phone field',
+                serviceWarn: 'Choose the type of service'
             }
         },
         studio: {

@@ -5,7 +5,6 @@ import {Main} from '../layouts/index'
 function index(props) {
     const [lang] = Lange(props.lange);
     const {homePage} = lang;
-    console.log("l", lang)
     
     return <Main content={()=>(
             <div className="container-fluid py-4" id="home_page">

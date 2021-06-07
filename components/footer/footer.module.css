@@ -15,6 +15,7 @@
     transition: all .1s linear;
 }
 .footer ul li a:hover{
+    text-decoration: none;
     color: rgba(22, 16, 16, 0.8);
     transition: all .1s linear;
 }

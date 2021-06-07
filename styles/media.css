@@ -59,6 +59,12 @@
     #cases .cases-wrapper .cases-item h3{
         font-size: 22px;
     }
+    #startProject .pos .or-md-1{
+        order: 2;
+    }
+    #startProject .pos .or-md-2{
+        order: 1;
+    }
 }
 /*sm*/
 @media only screen and (max-width: 576px){

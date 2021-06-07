@@ -15,8 +15,8 @@ export const index = (props) => {
                 <div className="detyledCase ">
                 <div className="container pt-5">
                     <div className="mb-5" style={{overflow: 'hidden'}}>
-                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1.3s">{langeText.customerHeading}</h6>
-                        <p className="col-md-7 px-0 animate__animated animate__fadeInDown wow" data-wow-duration="1.5s">{langeText.customerTexts}</p>
+                        <h6 className="animate__animated animate__fadeInDown" >{langeText.customerHeading}</h6>
+                        <p className="col-md-7 px-0 animate__animated animate__fadeInDown" >{langeText.customerTexts}</p>
                     </div>
                     <div className="mb-5" style={{overflow: 'hidden'}}>
                         <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1.3s">{langeText.tasksHeading}</h6>

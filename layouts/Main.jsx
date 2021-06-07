@@ -12,6 +12,7 @@ import * as actions from '../actions/actions';
 function Main(props) {
     const {initialLange, mainClass, headerClass} = props;
     const [loading, setLoading] = useState(true);
+    const [headerFixed, setHeaderFixed] = useState('')
     const {sideBar} = props;
     useEffect(()=>{
         initialLange(localStorage.getItem('lange'))
@@ -20,6 +21,16 @@ function Main(props) {
             setLoading(false)
         }, 1500)
     },[])
+    useEffect(()=>{
+        window.addEventListener('scroll', (e)=>{
+            console.log(window.pageYOffset)
+            if(window.pageYOffset > 100){
+                setHeaderFixed('header_fixed2')
+            }else{
+                setHeaderFixed('')
+            }
+        })
+    }, [])
     
     const Content = props.content
     return (
@@ -31,7 +42,7 @@ function Main(props) {
             <>
                 <Menu /> 
                 <div className={`d-flex justify-content-between h-100 align-items-between flex-column ${sideBar ? 'borderIn-20': 'borderOut-20'}`} style={{minHeight: '100vh', }}>
-                    <Header darkAttr={true} className={headerClass} />
+                    <Header darkAttr={true} className={`${headerClass} ${headerFixed}`} />
                     <main className={`d-block p-20 ${mainClass}`}>
                         {
                             !loading ?<Content />: null

@@ -16,7 +16,7 @@ function Header(props) {
     }, [])
     return (
         <header className={`p-20 ${styles.header} ${props.className}`}>
-            <div className="container-fluid">
+            <div className="container-fluid pt-2">
                 <div className="d-flex justify-content-between align-items-center">
                     <div className="d-inline-flex flex-lg-row flex-column">
                         <div className="mr-md-4 mr-0">

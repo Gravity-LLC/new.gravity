@@ -10,17 +10,19 @@ export const mainReducer = (state = initialState, action)=>{
             return{
                 ...state,
                 lange: action.payload || 'ru',
-                sideBar: false
+                sideBar: false,
             };
         case 'RU-LANGE':
             return {
                 ...state,
-                lange: 'ru'
+                lange: 'ru',
+                sideBar: false,
             };
         case 'EN-LANGE':
             return {
                 ...state,
-                lange: 'en'
+                lange: 'en',
+                sideBar: false,
             };
         case 'SIDE-BAAR-TRUE':
             return {
