@@ -19,7 +19,7 @@ export const studio = (props) => {
     return <Main content={()=>(
         <>
             <div className="container-fluid py-4" id="studio">
-                <div className="row" style={{minHeight: 'calc(100vh - 201px)'}}>
+                <div className="row position-relative" style={{minHeight: 'calc(100vh - 201px)'}}>
                     <div className="col-lg-8 col-md-7">
                         <div className="h-100 d-flex align-items-center">
                             <h1 className="animate__animated animate__fadeIn wow" datat-wow-duration=".5s" data-wow-delay="1.1s">{studio.aboutUs()}</h1>
@@ -37,7 +37,13 @@ export const studio = (props) => {
                             </div>
                         </div>
                     </div>
+                    <div className="line_bootm pt-5">
+                        <button className="btn">
+                            <span style={{background: 'black'}}></span>
+                        </button>
+                    </div>
                 </div>
+                
                 <div className="row info_project mt-5">
                     {
                         studio.infoProjects.map(item => (
