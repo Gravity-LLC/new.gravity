@@ -123,12 +123,14 @@ export const startproject = (props) => {
                         <span className="warn"></span>
                     </div>
                     <div className="col-md-4 col-12 or-md-2">
-                        <h2 className="heading my-sm-5 my-4 animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".5s">{startProject.heading1}</h2>
-                        <ul className="animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".6s">
-                            <li>{langeArr.office}</li>
-                            <li><a href="" target="_blanck">+992 111-111-789</a></li>
-                            <li><a href="" target="_blanck">info@gravity.tj</a></li>
-                        </ul>
+                        <div className="pl-md-5 pl-0">
+                            <h2 className="heading my-sm-5 my-4 animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".5s">{startProject.heading1}</h2>
+                            <ul className="animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".6s">
+                                <li>{langeArr.office}</li>
+                                <li><a href="" target="_blanck">+992 111-111-789</a></li>
+                                <li><a href="" target="_blanck">info@gravity.tj</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

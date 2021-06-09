@@ -23,7 +23,6 @@ function Main(props) {
     },[])
     useEffect(()=>{
         window.addEventListener('scroll', (e)=>{
-            console.log(window.pageYOffset)
             if(window.pageYOffset > 100){
                 setHeaderFixed('header_fixed2')
             }else{

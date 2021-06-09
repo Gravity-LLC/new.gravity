@@ -59,7 +59,7 @@ export const studio = (props) => {
                 <div>
                     <div className="row achievements mt-4" style={{overflow: 'hidden'}}>
                         <div className="col-lg-6 col-12 animate__fadeInLeft animate__animated wow" data-wow-duration=".5s" data-wow-offset="50">
-                            <div>
+                            <div className="col-lg-10">
                                 <h2>{studio.achievements.heading}</h2>
                                 <ul>
                                     {

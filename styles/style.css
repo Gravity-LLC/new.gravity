@@ -533,7 +533,7 @@ h2.heading{
 
 
 #studio .info_project, #studio .achievements{
-	background: #F7F8FA;
+	background: linear-gradient(#F7F8FA 85%, white 15%);
 	padding: 47px 60px;
 }
 #studio .info_project .info_project-item{
@@ -843,7 +843,6 @@ h2.heading{
 	left: 0px;
 	backdrop-filter: saturate(180%) blur(5px);
 	background-color: white;
-	box-shadow: 0px 1px 1px rgb(131, 127, 127);
 	animation: headerFix 2s ease 0s 1 initial forwards;
 	z-index: 10;
 }

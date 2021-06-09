@@ -17,7 +17,7 @@ function Footer(props) {
                     <li className="d-sm-inline-block d-none"><a href="https://t.me/gravity_tj" target="_blanck" className={colorText}>Github</a></li>
                 </ul>
                 <div className="d-flex mt-sm-0 mt-3">
-                    <button className={`btn ${colorText}`} onClick={ruLange}>Rus</button>
+                    <button className={`btn pl-0 ${colorText}`} onClick={ruLange}>Rus</button>
                     <button className={`btn ${colorText}`} onClick={enLange}>Eng</button>
                 </div>
             </div>
