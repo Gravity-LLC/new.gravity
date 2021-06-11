@@ -41,7 +41,7 @@ export const startproject = (props) => {
             key: 'AjqjezC8Q47yv5LbdOE3UvcCQJ7iUEgCiYCuouHZkLHqivCFW9sjANRFNci3Ms6N',
             subject: 'Заказ',
             text: text,
-            email: 'nazirazizov666@gmail.com',
+            email: akaiAkbar,
         }
         let warn = document.querySelector('.warn');
         const {success, nameWarn, phoneWarn, serviceWarn} = startProject.validateText
