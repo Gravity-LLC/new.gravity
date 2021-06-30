@@ -178,6 +178,17 @@
     #cases .cases-item .portfolio-main, #cases .cases-wrapper .cases-item .portfolio-description, #cases .cases-wrapper .cases-item .portfolio-description>div{
         padding: 20px
     }
+    
+    .detyledCase h6{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .detyledCase p{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: black;
+    }
 }
 @media only screen and (max-width: 330px){
     #studio .info_project .info_project-item .num{

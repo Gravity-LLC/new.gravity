@@ -190,10 +190,10 @@ header .x:hover path{
 }
 @keyframes fade {
     0%{ 
-        top: 100%
+        top: 120%
     }
     100%{
-        top: 30px
+        top: 0px
     }
 }
 .SidebarfadeOut{
@@ -201,10 +201,33 @@ header .x:hover path{
 }
 @keyframes fadeout {
     0%{ 
-        top: 30px
+        top: 0px
     }
     100%{
-        top: 100%
+        top: 120%
+    }
+}
+
+.d_none{
+    animation: dnone .4s ease-out 0s 1 alternate forwards;
+}
+@keyframes dnone {
+    0%{ 
+        display: flex !important;
+    }
+    100%{
+        display: none !important;
+    }
+}
+.d_flex{
+    animation: dflex .4s ease-out 0s 1 alternate forwards;
+}
+@keyframes dflex {
+    0%{ 
+        display: none !important;
+    }
+    100%{
+        display: flex !important;
     }
 }
 .borderIn-20{
@@ -609,7 +632,8 @@ h2.heading{
 
 
 .detyledCase h6{
-	font-size: 16px;
+	font-size: 24px;
+	line-height: 32px;
 	font-weight: 600;
 	color: black;
 	position: relative;
@@ -617,7 +641,8 @@ h2.heading{
 }
 .detyledCase p{
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 24px;
 	color: black;
 }
 .detyledCase .imageWrap{

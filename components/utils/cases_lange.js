@@ -53,14 +53,14 @@ export const casesRu = [
     {
         id: 5,
         pathName: '/pokupka',
-        heading: {text:'Интернет магазин «ПОКУПКА»', color: '#fff'},
+        heading: {text:'Интернет магазин «ПОКУПКА»', color: '#000'},
         description: {
             bg: '#0C5599',
             headingTextH3: 'Интернет магазин «ПОКУПКА»"',
             headingTextH6: 'Личный кабинет врачей и сайт',
             headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
         },
-        bgImage: '/images/cases/pokupka_3.jpg',
+        bgImage: '/images/cases/pokupka_3.png',
     },
     {
         id: 6,
@@ -154,14 +154,14 @@ export const casesEn = [
     {
         id: 5,
         pathName: '/pokupka',
-        heading: {text:'Online store «PURCHASE»', color: '#fff'},
+        heading: {text:'Online store «PURCHASE»', color: '#000'},
         description: {
             bg: '#0C5599',
             headingTextH3: 'Online store  «PURCHASE»',
             headingTextH6: 'Личный кабинет врачей и сайт',
             headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
         },
-        bgImage: '/images/cases/pokupka_3.jpg',
+        bgImage: '/images/cases/pokupka_3.png',
     },
     {
         id: 6,

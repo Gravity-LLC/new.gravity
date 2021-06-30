@@ -8,37 +8,6 @@ import AdminContentSpinner from '../components/spinner/adminContentSpinner'
 import { bindActionCreators } from 'redux';
 import * as actions from '../actions/actions';
 
-const imageArr = [
-    '/images/bg/menu.png',
-    '/images/cases/astore_1.jpg',
-    '/images/cases/astore_2.jpg',
-    '/images/cases/eurodent_1.jpg',
-    '/images/cases/eurodent_2.jpg',
-    '/images/cases/eurodent_3.jpg',
-    '/images/cases/eurodent_4.jpg',
-    '/images/cases/eurodent_5.jpg',
-    '/images/cases/humo_1.png',
-    '/images/cases/humo_2.png',
-    '/images/cases/humo_3.png',
-    '/images/cases/humo_4.png',
-    '/images/cases/kaynak_1.jpg',
-    '/images/cases/kaynak_2.jpg',
-    '/images/cases/masaic_1.jpg',
-    '/images/cases/masaic_2.png',
-    '/images/cases/masaic_3.png',
-    '/images/cases/masaic_4.png',
-    '/images/cases/masaic_5.png',
-    '/images/cases/masaic_6.png',
-    '/images/cases/nextview_1.jpg',
-    '/images/cases/nextview_2.jpg',
-    '/images/cases/pokupka_1.jpg',
-    '/images/cases/pokupka_2.png',
-    '/images/cases/pokupka_3.jpg',
-    '/images/cases/sb_1.png',
-    '/images/cases/sb_2.png',
-    '/images/cases/sb_3.png',
-    '/images/cases/sb_4.png',
-]
 
 function Main(props) {
     const {initialLange, mainClass, headerClass} = props;
@@ -80,11 +49,6 @@ function Main(props) {
                         
                     </main>
                     <Footer/>
-                </div>
-                <div style={{width: '0px', height: '0px', overflow: 'hidden'}}>
-                    {
-                        imageArr.map((item, idx) => <img src={item} key={idx} alt="" />)
-                    }
                 </div>
             </>
                 
