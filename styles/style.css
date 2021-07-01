@@ -716,33 +716,31 @@ h2.heading{
 	height: 100%;
 }
 .detyled_line:first-child{
-	border-left: 1px solid #000;
 }
 .detyled_line{
 	height: 100%;
-	border-right: 1px solid black;
 	display: inline-block;
 	animation: shadow5 1s linear 0s forwards;
 	opacity: .5;
 }
 .detyled_line:nth-child(2){
 	box-shadow: 0px 0px 0px black;
-	animation: shadow20 1s linear 0s forwards;
+	animation: shadow20 1s linear 1s forwards;
 }
 @keyframes shadow20 {
 	0%{
-		box-shadow: 0px 0px 0px black;
+		box-shadow: 0px 0px 0px #303030;
 	}
 	100%{
-		box-shadow: 0px 0px 20px #000;
+		box-shadow: 0px 0px 20px #303030;
 	}
 }
 @keyframes shadow5 {
 	0%{
-		box-shadow: 0px 0px 0px black;
+		box-shadow: 0px 0px 0px #303030;
 	}
 	100%{
-		box-shadow: inset 0px 0px 20px #000;
+		box-shadow: inset 0px 0px 20px #303030;
 	}
 }
 .imagebgDetiled{
