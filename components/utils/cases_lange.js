@@ -98,6 +98,18 @@ export const casesRu = [
         },
         bgImage: '/images/cases/nextview_2.jpg',
     },
+    {
+        id: 9,
+        pathName: '/amonatbonk',
+        heading: {text:'Банк Амонатбонк', color: '#000'},
+        description: {
+            bg: '#139D4F',
+            headingTextH3: 'Банк Амонатбонк',
+            headingTextH6: 'Личный кабинет врачей и сайт',
+            headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
+        },
+        bgImage: '/images/cases/amb_2.png',
+    },
 ]
 
 export const casesEn = [
@@ -198,5 +210,17 @@ export const casesEn = [
             headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
         },
         bgImage: '/images/cases/nextview_2.jpg',
+    },
+    {
+        id: 9,
+        pathName: '/amonatbonk',
+        heading: {text:'Bank Amonatbonk', color: '#000'},
+        description: {
+            bg: '#139D4F',
+            headingTextH3: 'Bank Amonatbonk',
+            headingTextH6: 'Личный кабинет врачей и сайт',
+            headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
+        },
+        bgImage: '/images/cases/amb_2.png',
     },
 ]

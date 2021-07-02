@@ -9,48 +9,34 @@ const Styles = ()=> (
         {`
             #cases .cases-wrapper{
                 grid-template-columns: 1fr 1fr;
-                grid-template-rows: repeat(6, 1fr);
+                grid-template-rows: repeat(7, 1fr);
                 grid-template-areas:
                 "ar-1 ar-2"
                 "ar-3 ar-2"
                 "ar-4 ar-4"
                 "ar-5 ar-6"
                 "ar-5 ar-7"
-                "ar-8 ar-8";
+                "ar-8 ar-8"
+                "ar-9 ar";
             }
-            #cases .cases-wrapper .cases-item:nth-child(1){
-                color: white;
-                grid-area: ar-1
-            }
-            #cases .cases-wrapper .cases-item:nth-child(2){
-                grid-area: ar-2
-            }
-            #cases .cases-wrapper .cases-item:nth-child(3){
-                grid-area: ar-3
-            }
-            #cases .cases-wrapper .cases-item:nth-child(4){
-                grid-area: ar-4
-            }
-            #cases .cases-wrapper .cases-item:nth-child(5){
-                grid-area: ar-5
-            }
-            #cases .cases-wrapper .cases-item:nth-child(6){
-                grid-area: ar-6
-            }
-            #cases .cases-wrapper .cases-item:nth-child(7){
-                grid-area: ar-7
-            }
-            #cases .cases-wrapper .cases-item:nth-child(8){
-                grid-area: ar-8
-            }
+            #cases .cases-wrapper .cases-item:nth-child(1){grid-area: ar-1}
+            #cases .cases-wrapper .cases-item:nth-child(2){grid-area: ar-2}
+            #cases .cases-wrapper .cases-item:nth-child(3){grid-area: ar-3}
+            #cases .cases-wrapper .cases-item:nth-child(4){grid-area: ar-4}
+            #cases .cases-wrapper .cases-item:nth-child(5){grid-area: ar-5}
+            #cases .cases-wrapper .cases-item:nth-child(6){grid-area: ar-6}
+            #cases .cases-wrapper .cases-item:nth-child(7){grid-area: ar-7}
+            #cases .cases-wrapper .cases-item:nth-child(8){grid-area: ar-8}
+            #cases .cases-wrapper .cases-item:nth-child(9){grid-area: ar-9}
             @media only screen and (max-width: 768px ){
                 #cases .cases-wrapper{
-                    grid-template-rows: repeat(4,1fr);
+                    grid-template-rows: repeat(5,1fr);
                     grid-template-areas:
                     "ar-1 ar-2"
                     "ar-3 ar-4"
                     "ar-5 ar-6"
                     "ar-7 ar-8"
+                    "ar-9 ar";
                 }
             }
             @media only screen and (max-width: 576px ){
@@ -65,7 +51,8 @@ const Styles = ()=> (
                     "ar-5"
                     "ar-6"
                     "ar-7"
-                    "ar-8";
+                    "ar-8"
+                    "ar-9";
                 }
             }
         `}
