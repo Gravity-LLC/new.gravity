@@ -17,7 +17,7 @@ const Styles = ()=> (
                 "ar-5 ar-6"
                 "ar-5 ar-7"
                 "ar-8 ar-8"
-                "ar-9 ar";
+                "ar-9 ar-10";
             }
             #cases .cases-wrapper .cases-item:nth-child(1){grid-area: ar-1}
             #cases .cases-wrapper .cases-item:nth-child(2){grid-area: ar-2}
@@ -28,6 +28,8 @@ const Styles = ()=> (
             #cases .cases-wrapper .cases-item:nth-child(7){grid-area: ar-7}
             #cases .cases-wrapper .cases-item:nth-child(8){grid-area: ar-8}
             #cases .cases-wrapper .cases-item:nth-child(9){grid-area: ar-9}
+            #cases .cases-wrapper .cases-item:nth-child(10){grid-area: ar-10}
+            
             @media only screen and (max-width: 768px ){
                 #cases .cases-wrapper{
                     grid-template-rows: repeat(5,1fr);
@@ -36,7 +38,7 @@ const Styles = ()=> (
                     "ar-3 ar-4"
                     "ar-5 ar-6"
                     "ar-7 ar-8"
-                    "ar-9 ar";
+                    "ar-9 ar-10";
                 }
             }
             @media only screen and (max-width: 576px ){
@@ -52,7 +54,8 @@ const Styles = ()=> (
                     "ar-6"
                     "ar-7"
                     "ar-8"
-                    "ar-9";
+                    "ar-9"
+                    "ar-10";
                 }
             }
         `}

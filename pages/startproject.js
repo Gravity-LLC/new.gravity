@@ -110,7 +110,7 @@ export const startproject = (props) => {
                                 </div>
                                 <div className="col-md-6 col-12 mt-4">
                                     <div>
-                                        <input id="phoneEl" type="number" name="phone" className="form-control" placeholder={startProject.forms.phone} />
+                                        <input id="phoneEl" type="number" name="phone" className="form-control" autoComplete="off" placeholder={startProject.forms.phone} />
                                     </div>
                                 </div>
                                 <div className="col-12 mt-4">

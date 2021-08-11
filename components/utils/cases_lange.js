@@ -110,6 +110,18 @@ export const casesRu = [
         },
         bgImage: '/images/cases/amb_2.png',
     },
+    {
+        id: 10,
+        pathName: '/osiaf',
+        heading: {text:'Osiaf', color: '#000'},
+        description: {
+            bg: '#FB6A1C',
+            headingTextH3: 'Банк Амонатбонк',
+            headingTextH6: 'Личный кабинет врачей и сайт',
+            headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
+        },
+        bgImage: '/images/cases/osiaf_2.png',
+    },
 ]
 
 export const casesEn = [
@@ -222,5 +234,17 @@ export const casesEn = [
             headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
         },
         bgImage: '/images/cases/amb_2.png',
+    },
+    {
+        id: 10,
+        pathName: '/osiaf',
+        heading: {text:'Osiaf', color: '#000'},
+        description: {
+            bg: '#FB6A1C',
+            headingTextH3: 'Банк Амонатбонк',
+            headingTextH6: 'Личный кабинет врачей и сайт',
+            headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
+        },
+        bgImage: '/images/cases/osiaf_2.png',
     },
 ]

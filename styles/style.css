@@ -134,10 +134,10 @@ input[type="number"]::-o-outer-spin-button {
 }
 @keyframes upEff {
 	0%{
-		transform: translateY(0%);
+		transform: translateY(0vh);
 	}
 	100%{
-		transform: translateY(-180%);
+		transform: translateY(-110vh);
 	}
 }
 

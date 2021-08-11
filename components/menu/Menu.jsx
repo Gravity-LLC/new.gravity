@@ -1,3 +1,4 @@
+import {useEffect} from 'react';
 import A from '../a/A';
 import styles from './menu.module.css';
 import {connect} from 'react-redux';
@@ -9,6 +10,13 @@ function Menu(props) {
     const {lange, sideBar, sideBarFalse} = props;
     const [langeArr] = Lange(lange);
     const {navbarNav} = langeArr;
+    useEffect(()=>{
+        if(sideBar){
+            document.body.classList.add('overflow-hidden');
+        } else {
+            document.body.classList.remove('overflow-hidden');
+        }
+    }, [sideBar])
     return (
         <div className={`${styles.menu_wrapper} ${sideBar ? 'SidebarfadeIn': 'SidebarfadeOut'}`}>
             <div className={` h-100 d-flex justify-content-between h-100 align-items-between flex-column ${styles.menu}`}>

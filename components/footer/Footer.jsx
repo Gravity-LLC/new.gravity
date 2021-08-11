@@ -18,7 +18,7 @@ function Footer(props) {
                 </ul>
                 <div className="d-flex mt-sm-0 mt-3">
                     <button className={`btn pl-0 ${colorText}`} onClick={ruLange}>Rus</button>
-                    <button className={`btn ${colorText}`} onClick={enLange}>Eng</button>
+                    <button className={`btn ${colorText} ml-2`} onClick={enLange}>Eng</button>
                 </div>
             </div>
         </footer>
