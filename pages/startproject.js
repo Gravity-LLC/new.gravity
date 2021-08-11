@@ -127,8 +127,8 @@ export const startproject = (props) => {
                             <h2 className="heading my-sm-5 my-4 animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".5s">{startProject.heading1}</h2>
                             <ul className="animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".6s">
                                 <li>{langeArr.office}</li>
-                                <li><a href="" target="_blanck">+992 111-111-789</a></li>
-                                <li><a href="" target="_blanck">info@gravity.tj</a></li>
+                                <li><a href="tel:+992111111789">(+992) 111-111-789</a></li>
+                                <li><a href="mailto:info@gravity.tj" >info@gravity.tj</a></li>
                             </ul>
                         </div>
                     </div>

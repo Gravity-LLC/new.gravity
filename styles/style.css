@@ -170,7 +170,7 @@ input[type="number"]::-o-outer-spin-button {
 }
 #menu-main .address h4 a:hover{
 	text-decoration: none;
-	color: blue;
+	color: rgba(255, 255, 255, .5);
 }
 header .x{
 	padding: 0px;

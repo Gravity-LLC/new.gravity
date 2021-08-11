@@ -122,6 +122,18 @@ export const casesRu = [
         },
         bgImage: '/images/cases/osiaf_2.png',
     },
+    {
+        id: 11,
+        pathName: '/snowdrop',
+        heading: {text:'Snowdrop', color: '#000'},
+        description: {
+            bg: '#FB6A1C',
+            headingTextH3: 'Snowdrop',
+            headingTextH6: 'Личный кабинет врачей и сайт',
+            headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
+        },
+        bgImage: '/images/cases/snowdrop_2.png',
+    },
 ]
 
 export const casesEn = [
@@ -246,5 +258,17 @@ export const casesEn = [
             headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
         },
         bgImage: '/images/cases/osiaf_2.png',
+    },
+    {
+        id: 11,
+        pathName: '/snowdrop',
+        heading: {text:'Snowdrop', color: '#000'},
+        description: {
+            bg: '#FB6A1C',
+            headingTextH3: 'Snowdrop',
+            headingTextH6: 'Личный кабинет врачей и сайт',
+            headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
+        },
+        bgImage: '/images/cases/snowdrop_2.png',
     },
 ]

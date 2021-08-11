@@ -56,8 +56,8 @@ function Menu(props) {
                                 </div>
                                 <div className="col-md-5 col-12 mt-4">
                                     <div className="address">
-                                        <h4><a href="">(+992) 111-111-789</a></h4>
-                                        <h4><a href="">info@gravity.tj</a></h4>
+                                        <h4><a href="tel:+992111111789">(+992) 111-111-789</a></h4>
+                                        <h4><a href="mailto:info@gravity.tj">info@gravity.tj</a></h4>
                                         <h4>{langeArr.office}</h4>
                                     </div>
                                 </div>
