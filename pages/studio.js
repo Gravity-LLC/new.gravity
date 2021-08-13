@@ -49,7 +49,7 @@ export const studio = (props) => {
                     </div>
                 </div>
                 
-                <div className="row info_project mt-5">
+                <div className="row info_project mt-5" style={{background: '#F7F8FA'}}>
                     {
                         studio.infoProjects.map(item => (
                             <div className="col-lg-4 col-md-6  col-12 mt-lg-0 mt-4 animate__animated animate__fadeIn wow" data-wow-offset="10" datat-wow-duration=".5s" key={item.num}>
@@ -62,7 +62,7 @@ export const studio = (props) => {
                     }
                 </div>
                 <div>
-                    <div className="row achievements mt-4" style={{overflow: 'hidden'}}>
+                    <div className="row achievements mt-5" style={{overflow: 'hidden'}}>
                         <div className="col-lg-6 col-12 animate__fadeInLeft animate__animated wow" data-wow-duration=".5s" data-wow-offset="50">
                             <div className="col-lg-10">
                                 <h2>{studio.achievements.heading}</h2>
