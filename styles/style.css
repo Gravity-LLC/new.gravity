@@ -692,7 +692,7 @@ h2.heading{
 	text-align: center;
 }
 .detiledInfoWrapper .heading h1{
-	font-size: 18vh;
+	font-size: 15vh;
 	color: white;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -715,32 +715,33 @@ h2.heading{
 .detyled_line_wrapper{
 	height: 100%;
 }
-.detyled_line:first-child{
-}
 .detyled_line{
 	height: 100%;
 	display: inline-block;
-	animation: shadow5 1s linear 0s forwards;
+	/* animation: shadow5 1s linear 0s forwards; */
 	opacity: .5;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
 }
 .detyled_line:nth-child(2){
-	box-shadow: 0px 0px 0px black;
-	animation: shadow20 1s linear 1s forwards;
+	/* box-shadow: 0px 0px 0px black; */
+	animation: shadow20 .8s linear 2s forwards;
+	border: 0px solid transparent;
 }
 @keyframes shadow20 {
 	0%{
-		box-shadow: 0px 0px 0px #303030;
+		box-shadow:  0px 0px 0px #202020;
 	}
 	100%{
-		box-shadow: 0px 0px 20px #303030;
+		box-shadow:  0px 50px 50px 10px #202020,0px -50px 50px 10px #202020;
 	}
 }
 @keyframes shadow5 {
 	0%{
-		box-shadow: 0px 0px 0px #303030;
+		box-shadow: inset 0px 0px 0px #202020;
 	}
 	100%{
-		box-shadow: inset 0px 0px 20px #303030;
+		box-shadow: inset 0px 0px 10px #202020;
 	}
 }
 .imagebgDetiled{
@@ -761,33 +762,37 @@ h2.heading{
 }
 
 .detileBanIn{
-	animation: detiedBanEffIn 1s linear 0s 1 alternate forwards;
+	animation: detiedBanEffIn .8s linear 0s 1 alternate forwards;
 }
 @keyframes detiedBanEffIn {
 	0%{
 		margin-top: 0px;
 		display: block;
+		opacity: 1;
 	}
 	100%{
 		margin-top: -100vh;
 		display: none;
+		opacity: 0;
 	}
 }
 .detileBanOut{
-	animation: detiedBanEffOut 1s linear 0s 1 alternate forwards;
+	animation: detiedBanEffOut .8s linear 0s 1 alternate forwards;
 }
 @keyframes detiedBanEffOut {
 	0%{
 		margin-top: -100vh;
 		display: none;
+		opacity: 0;
 	}
 	100%{
 		margin-top: 0px;
 		display: block;
+		opacity: 1;
 	}
 }
 .contDetileFadeIn{
-	animation: contDetileFadeIn 3.2s ease 0s 1 alternate forwards;
+	animation: contDetileFadeIn 3s ease 0s 1 alternate forwards;
 }
 @keyframes contDetileFadeIn {
 	0%{
@@ -800,18 +805,18 @@ h2.heading{
 		height: 0px;
 		overflow: hidden;
 		display: none;
-		opacity: 0;
+		opacity: 0.5;
 	}
 }
 .contDetileFadeOut{
-	animation: contDetileFadeOut 3.2s ease 0s 1 alternate forwards;
+	animation: contDetileFadeOut 3s ease 0s 1 alternate forwards;
 }
 @keyframes contDetileFadeOut {
 	0%{
 		height: 0px;
 		overflow: hidden;
 		display: none;
-		opacity: 0;
+		opacity: 0.5;
 	}
 	100%{
 		height: auto;

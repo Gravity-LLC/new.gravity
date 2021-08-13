@@ -80,7 +80,7 @@ export const cases = (props) => {
                     <div className="cases-wrapper mt-5">
                         {
                             cases.casesArr.map(item => (
-                                <A key={item.id} href={pathname+item.pathName} className="cases-item animate__animated animate__fadeInUp wow" style={{background: `url(${item.bgImage}) no-repeat center / cover`}} data-wow-duration="2s">
+                                <A key={item.id} href={pathname+item.pathName} className="cases-item animate__animated animate__fadeInUp wow" style={{background: `silver url(${item.bgImage}) no-repeat center / cover`}} data-wow-duration="2s">
                                     <div className="portfolio-main">
                                         <div>
                                             <div className="text-wrapper_profile">

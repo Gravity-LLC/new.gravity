@@ -127,7 +127,7 @@ export const casesRu = [
         pathName: '/snowdrop',
         heading: {text:'Snowdrop', color: '#000'},
         description: {
-            bg: '#FB6A1C',
+            bg: '#00B890',
             headingTextH3: 'Snowdrop',
             headingTextH6: 'Личный кабинет врачей и сайт',
             headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
@@ -264,7 +264,7 @@ export const casesEn = [
         pathName: '/snowdrop',
         heading: {text:'Snowdrop', color: '#000'},
         description: {
-            bg: '#FB6A1C',
+            bg: '#00B890',
             headingTextH3: 'Snowdrop',
             headingTextH6: 'Личный кабинет врачей и сайт',
             headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',

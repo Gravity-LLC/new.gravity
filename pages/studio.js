@@ -54,7 +54,7 @@ export const studio = (props) => {
                         studio.infoProjects.map(item => (
                             <div className="col-lg-4 col-md-6  col-12 mt-lg-0 mt-4 animate__animated animate__fadeIn wow" data-wow-offset="10" datat-wow-duration=".5s" key={item.num}>
                                 <div className="info_project-item">
-                                    <div className="num">{item.num}</div>
+                                    <div className="num">{item.num !== 65 ? item.num: item.num + '+'}</div>
                                     <p>{item.text}</p>
                                 </div>
                             </div>
