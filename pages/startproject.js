@@ -87,10 +87,10 @@ export const startproject = (props) => {
     }
     return <Main content={()=>(
         <>
-            <div className="container pb-5 mb-sm-5 mb-4" id="startProject">
+            <div className="container pb-5" id="startProject">
                 <div className="row d-flex pos">
                     <div className="col-md-8 col-12 or-md-1">
-                        <h2 className="heading my-sm-5 my-4 animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".7s">{startProject.heading2}</h2>
+                        <h2 className="mb-sm-5 mb-4 heading animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".7s">{startProject.heading2}</h2>
                         <form onSubmit={handleSubmit} className="animate__animated animate__fadeIn wow"  data-wow-duration=".5s" data-wow-delay=".8s">
                             <div className="category ">
                                 {
@@ -124,7 +124,7 @@ export const startproject = (props) => {
                     </div>
                     <div className="col-md-4 col-12 or-md-2">
                         <div className="pl-md-5 pl-0">
-                            <h2 className="heading my-sm-5 my-4 animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".5s">{startProject.heading1}</h2>
+                            <h2 className="heading mb-sm-5 mb-4 animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".5s">{startProject.heading1}</h2>
                             <ul className="animate__animated animate__fadeIn wow" data-wow-duration=".5s" data-wow-delay=".6s">
                                 <li>{langeArr.office}</li>
                                 <li><a href="tel:+992111111789">(+992) 111-111-789</a></li>

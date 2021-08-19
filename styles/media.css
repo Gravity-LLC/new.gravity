@@ -13,6 +13,10 @@
         grid-template-columns: repeat(4,1fr);
         grid-gap: 80px 40px;
     }
+    #home_page h1{
+        font-size: 32px !important;
+        line-height: 38px !important;
+    }
 }
 /*md*/
 @media only screen and (max-width: 768px){

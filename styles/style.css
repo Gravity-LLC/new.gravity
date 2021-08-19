@@ -321,8 +321,8 @@ h2.heading{
 	border-radius: 0px;
 	background: #F0F2F5;
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 22px;
+	font-size: 14px;
+	line-height: 20px;
 	color: #868B94;
 	position: relative;
 	overflow: hidden;
@@ -393,6 +393,7 @@ h2.heading{
 	height: 100%;
 	width: 100%;
 	margin-right: 0px;
+	font-size: 16px;
 }
 #startProject form .sendMsg .btn:hover{
 	background-color: rgba(0, 0, 0, .8);
@@ -733,7 +734,7 @@ h2.heading{
 		box-shadow:  0px 0px 0px #202020;
 	}
 	100%{
-		box-shadow:  0px 50px 50px 10px #202020,0px -50px 50px 10px #202020;
+		box-shadow:  0px 30px 40px 5px #202020,0px -30px 40px 5px #202020;
 	}
 }
 @keyframes shadow5 {

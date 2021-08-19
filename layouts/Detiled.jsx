@@ -100,9 +100,9 @@ function Detiled(props) {
                         </div>
                     </div>
                     <div className="container detyled_line_wrapper">
-                        <div className="col-md-4 col-5 detyled_line"></div>
                         <div className="col-md-4 col-2 detyled_line"></div>
-                        <div className="col-md-4 col-5 detyled_line"></div>
+                        <div className="col-md-4 col-8 detyled_line"></div>
+                        <div className="col-md-4 col-2 detyled_line"></div>
                     </div>
                 </div>
                 <div onTouchStart={handleTouchStart} onTouchMove={handleTouchEvent2}  className={cont ? 'contDetileFadeIn scrollbarNone': 'contDetileFadeOut scrollbarNone'}>

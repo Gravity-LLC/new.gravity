@@ -70,17 +70,17 @@ export const cases = (props) => {
     const {lange} = props;
     const {pathname} = useRouter();
     const [langeArr] = Lange(lange);
-    const {cases} = langeArr;
+    const cases = langeArr.cases.casesArr.sort((a,b) => (a.id < b.id) ? 1 : ((b.id < a.id) ? -1 : 0))
     return <Main mainClass="pt-0" content={()=>(
         <>
             <Styles/>
             <div className="p-20" id="cases">
                 <div className="container-fluid">
-                    <h2 className="heading">{cases.headingText}</h2>
+                    <h2 className="heading">{langeArr.cases.headingText}</h2>
                     <div className="cases-wrapper mt-5">
                         {
-                            cases.casesArr.map(item => (
-                                <A key={item.id} href={pathname+item.pathName} className="cases-item animate__animated animate__fadeInUp wow" style={{background: `silver url(${item.bgImage}) no-repeat center / cover`}} data-wow-duration="2s">
+                            cases.map(item => (
+                                <A key={item.id} href={pathname+item.pathName} className="cases-item animate__animated animate__fadeInUp wow" style={{background: ` url(${item.bgImage}) no-repeat center / cover`}} data-wow-duration="2s">
                                     <div className="portfolio-main">
                                         <div>
                                             <div className="text-wrapper_profile">

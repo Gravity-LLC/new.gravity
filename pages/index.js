@@ -7,7 +7,7 @@ function index(props) {
     const {homePage} = lang;
     
     return <Main content={()=>(
-            <div className="container-fluid py-4" id="home_page">
+            <div className="container-fluid py-4 d-flex flex-column justify-content-center" id="home_page" style={{minHeight: 'calc(90vh - 66px - 70px)'}}>
                 <div className="row">
                     <div className="col-lg-8 col-md-7">
                         <div className="h-100 d-flex align-items-center animate__animated animate__fadeIn wow" datat-wow-duration=".5s" data-wow-delay="1.1s">

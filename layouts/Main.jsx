@@ -41,13 +41,15 @@ function Main(props) {
             <>
                 <Menu /> 
                 <div className={`d-flex justify-content-between h-100 align-items-between flex-column ${sideBar ? 'borderIn-20': 'borderOut-20'}`} style={{minHeight: '100vh', }}>
-                    <Header darkAttr={true} className={`${headerClass} ${headerFixed}`} />
-                    <main className={`d-block p-20 ${mainClass}`}>
-                        {
-                            !loading ?<Content />: null
-                        }
-                        
-                    </main>
+                    <div>
+                        <Header darkAttr={true} className={`${headerClass} ${headerFixed}`} />
+                        <main className={`d-block p-20 ${mainClass}`}>
+                            {
+                                !loading ?<Content />: null
+                            }
+                            
+                        </main>
+                    </div>
                     <Footer/>
                 </div>
             </>
