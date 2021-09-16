@@ -193,6 +193,24 @@
         line-height: 20px;
         color: black;
     }
+    #studio .tehnologi-wrapper, #studio .partners-wrapper{
+        margin-top: 50px;
+    }
+    #startProject .form-control {
+        height: 40px;
+        padding: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+    #startProject form .sendMsg .btn {
+        min-height: 45px;
+        font-size: 14px;
+    }
+    #startProject .btn {
+        font-size: 12px;
+        line-height: 14px;
+    }
 }
 @media only screen and (max-width: 330px){
     #studio .info_project .info_project-item .num{
@@ -200,11 +218,11 @@
         line-height: 70px;
     }
     #studio .info_project, #studio .achievements{
-        padding: 10px;
+        padding: 10px 0px;
     }
     #studio h2{
-        font-size: 32px;
-        line-height: 38px;
+        font-size: 28px;
+        line-height: 31px;
     }
     #studio .arch_bg{
         min-height: 270px;
@@ -216,12 +234,19 @@
         font-size: 36px;
     }
     #cases .cases-wrapper .cases-item{
-        min-height: 250px;
+        min-height: 200px;
     }
     #cases .cases-wrapper .cases-item h3 {
         font-size: 18px;
     }
     #cases .cases-item .portfolio-main, #cases .cases-wrapper .cases-item .portfolio-description, #cases .cases-wrapper .cases-item .portfolio-description>div{
         padding: 15px 10px
+    }
+    #studio .info_project .info_project-item{
+        display: block;
+    }
+    h2.heading {
+        font-size: 22px;
+        line-height: 26px;
     }
 }

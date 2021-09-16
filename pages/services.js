@@ -53,19 +53,19 @@ function services(props) {
         <>
             <div className="container" id="services">
                 <div className="row" style={{overflow: 'hidden'}}>
-                    <h2 className="col-12">{langeArr.servicesH2}</h2>
+                    <h2 className="col-12 text-sm-left text-center">{langeArr.servicesH2}</h2>
                     {
                         langeArr.services.map(item => {
                             
                             return (
                                 <div key={item.id} className={`col-lg-4 col-md-6 col-12 mt-4 animate__animated wow ${addAnimateClass(item.id)}`}>
                                     <div>
-                                        <div className="service-image justify-content-start">
+                                        <div className="service-image justify-content-sm-start justify-content-center">
                                             {
                                                 addSvg(item.id)
                                             }
                                         </div>
-                                        <ul className="services-lists mt-sm-5 mt-4 ">
+                                        <ul className="services-lists mt-sm-5 mt-4 text-sm-left text-center">
                                             {
                                                 item.lists.map((list, inx) => <li key={inx}>{list}</li>)
                                             }

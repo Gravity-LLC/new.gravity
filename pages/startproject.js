@@ -103,17 +103,17 @@ export const startproject = (props) => {
                                 }
                             </div>
                             <div className="row">
-                                <div className="col-md-6 col-12 mt-4">
+                                <div className="col-md-6 col-12 mt-sm-4 mt-3">
                                     <div>
                                         <input id="nameEl" type="text" name="name" className="form-control" placeholder={startProject.forms.name} />
                                     </div>
                                 </div>
-                                <div className="col-md-6 col-12 mt-4">
+                                <div className="col-md-6 col-12 mt-sm-4 mt-3">
                                     <div>
                                         <input id="phoneEl" type="number" name="phone" className="form-control" autoComplete="off" placeholder={startProject.forms.phone} />
                                     </div>
                                 </div>
-                                <div className="col-12 mt-4">
+                                <div className="col-12 mt-sm-4 mt-3">
                                     <div className="sendMsg h-100">
                                         <button className="btn">{startProject.forms.send}</button>
                                     </div>
