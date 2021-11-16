@@ -18,6 +18,7 @@ export const index = (props) => {
                     <div className="mb-5" style={{overflow: 'hidden'}}>
                         <h6 className="animate__animated animate__fadeInDown">{langeText.customerHeading}</h6>
                         <p className="col-md-7 px-0 animate__animated animate__fadeInDown " >{langeText.customerTexts}</p>
+                        <a href="https://osiaf.tj/ru/home/" target="_blanck" style={{color: "#FD7F04"}}>www.osiaf.tj</a> 
                     </div>
                     
                 </div>

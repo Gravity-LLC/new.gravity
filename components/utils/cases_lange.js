@@ -134,6 +134,18 @@ export const casesRu = [
         },
         bgImage: '/images/cases/snowdrop_2.png',
     },
+    {
+        id: 12,
+        pathName: '/avva',
+        heading: {text:'Avva', color: '#fff'},
+        description: {
+            bg: '#262626',
+            headingTextH3: 'Avva',
+            headingTextH6: 'Личный кабинет врачей и сайт',
+            headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
+        },
+        bgImage: '/images/cases/snowdrop_2.png',
+    },
 ]
 
 export const casesEn = [
@@ -266,6 +278,18 @@ export const casesEn = [
         description: {
             bg: '#00B890',
             headingTextH3: 'Snowdrop',
+            headingTextH6: 'Личный кабинет врачей и сайт',
+            headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
+        },
+        bgImage: '/images/cases/snowdrop_2.png',
+    },
+    {
+        id: 12,
+        pathName: '/avva',
+        heading: {text:'Avva', color: '#fff'},
+        description: {
+            bg: '#262626',
+            headingTextH3: 'Avva',
             headingTextH6: 'Личный кабинет врачей и сайт',
             headingTextHP: 'Дизайн, Web-аналитика, Frontend, Прототипирование',
         },

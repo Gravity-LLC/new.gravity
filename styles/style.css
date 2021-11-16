@@ -641,12 +641,19 @@ h2.heading{
 	margin: 30px 0px;
 	overflow: hidden;
 }
-.detyledCase p{
+.detyledCase p, .detyledCase a{
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
 	color: black;
 	overflow: hidden;
+}
+.detyledCase a:hover {
+	text-decoration: none;
+	opacity: .6;
+}
+.detyledCase a:active {
+	opacity: 1;
 }
 .detyledCase .imageWrap{
 	height: 100vh;
@@ -698,7 +705,7 @@ h2.heading{
 	font-size: 15vh;
 	color: white;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 500;
 }
 .detiledInfoWrapper .lang_wrap{
 	position: absolute;

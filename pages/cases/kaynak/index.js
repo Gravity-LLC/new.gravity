@@ -10,7 +10,7 @@ export const index = (props) => {
         mainClass="p-0"
         siteName={langeText.banText}
         slogn=""
-        bgImage="/images/cases/kaynak_1.jpg"
+        bgImage="/images/cases/kaynak_bg.png"
         content={()=>(
             <>
                 <div className="detyledCase ">
@@ -20,6 +20,7 @@ export const index = (props) => {
                         {
                             langeText.customerTexts.map((el, idx) => <p className="col-md-7 px-0 animate__animated animate__fadeInDown" key={idx}>{el}</p>)
                         }
+                        <a href="https://www.kaynak.tj/" target="_blanck" style={{color: "#FBC200"}}>www.kaynak.tj</a> 
                     </div>
                 </div>
                 <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.5s">

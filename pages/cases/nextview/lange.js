@@ -1,7 +1,7 @@
 const langs = [
     {
         lange: 'ru',
-        banText: 'NextView',
+        banText: 'NEXT VIEW',
         customerHeading: 'Заказчик:',
         customerTexts: 'Маркетинговое агентство "NextView" — это преуспевающее маркетинговое агентство города Душанбе, которое предлагает широкий спектр услуг: от комплексного создания бренда с нуля до организации масштабных ивентов.',
         tasksHeading: 'Задача:',
@@ -24,7 +24,7 @@ const langs = [
     },
     {
         lange: 'en',
-        banText: 'NextView',
+        banText: 'NEXT VIEW',
         customerHeading: 'Customer:',
         customerTexts: 'Marketing agency "NextView" is a successful marketing agency in the city of Dushanbe, which offers a wide range of services: from complex brand creation from scratch to organizing large-scale events.',
         tasksHeading: 'A task:',

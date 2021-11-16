@@ -9,7 +9,7 @@ export const index = (props) => {
         mainClass="p-0"
         siteName={langeText.banText}
         slogn=""
-        bgImage="/images/cases/pokupka_1.jpg"
+        bgImage="/images/cases/pokupka_bg.png"
         content={()=>(
             <>
                 <div className="detyledCase ">
@@ -17,9 +17,10 @@ export const index = (props) => {
                     <div className="mb-5" style={{overflow: 'hidden'}}>
                         <h6 className="animate__animated animate__fadeInDown" >{langeText.customerHeading}</h6>
                         <p className="col-md-7 px-0 animate__animated animate__fadeInDown" >{langeText.customerTexts}</p>
+                        <a href="https://www.pokupka.tj/" style={{color: "#31619F"}}>www.pokupka.tj</a> 
                     </div>
                 </div>
-                <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
+                <div className="imageWrapper mt-5 animate__animated animate__slideInUp" data-wow-offset="50" data-wow-duration="1.2s">
                     <img src="/images/cases/pokupka_2.png" className="img-fluid w-100" />
                 </div>
                 <div className="container pt-5" style={{overflow: 'hidden'}}>

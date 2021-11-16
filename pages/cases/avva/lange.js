@@ -1,7 +1,7 @@
 const langs = [
     {
         lange: 'ru',
-        banText: 'HUMO',
+        banText: 'Avva',
         customerHeading: 'Заказчик:',
         customerTexts: 'Микрокредитная депозитная организация «Хумо» — одна из лидирующих компаний в отрасли микрофинансирования на рынке Таджикистана. Ею осуществляется доступное финансирование сельского населения, содействие в развитию малого и среднего бизнеса в бедных районах страны. ',
         tasksHeading: 'Задачи:',
@@ -24,7 +24,7 @@ const langs = [
     },
     {
         lange: 'en',
-        banText: 'HUMO',
+        banText: 'Avva',
         customerHeading: 'Customer:',
         customerTexts: 'Microcredit deposit organization "Humo" is one of the leading companies in the microfinance industry in the Tajik market. It provides affordable financing for the rural population, assistance in the development of small and medium-sized businesses in the poor regions of the country.',
         tasksHeading: 'Tasks:',

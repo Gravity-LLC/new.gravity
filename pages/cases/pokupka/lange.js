@@ -1,7 +1,7 @@
 const langs = [
     {
         lange: 'ru',
-        banText: '«ПОКУПКА»',
+        banText: 'ПОКУПКА',
         customerHeading: 'Заказчик:',
         customerTexts: 'Интернет магазин «Pokupka.tj» - это сайт с широким ассортиментом продукции качественных брендовых товаров по самым доступным ценам. ',
         tasksHeading: 'Задачи, которые были реализованы при создании сайта: ',
@@ -15,7 +15,7 @@ const langs = [
     },
     {
         lange: 'en',
-        banText: '«Pokupka»',
+        banText: 'Pokupka',
         customerHeading: 'Customer:',
         customerTexts: 'The online store "Pokupka.tj" is a site with a wide range of quality branded goods at the most affordable prices.',
         tasksHeading: 'Tasks that were implemented when creating the site: ',
