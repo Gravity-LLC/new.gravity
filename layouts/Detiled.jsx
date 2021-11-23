@@ -7,9 +7,9 @@ import Menu from '../components/menu//Menu';
 import AdminContentSpinner from '../components/spinner/adminContentSpinner'
 import { bindActionCreators } from 'redux';
 import * as actions from '../actions/actions';
-
+import DetiledFeedBack from '../components/detiledFeedback/DetiledFeedBack';
 function Detiled(props) {
-    const {initialLange, mainClass, headerClass} = props;
+    const {initialLange, mainClass, headerClass, feetbackProp, colorHeaderNavBool} = props;
     const [loading, setLoading] = useState(true);
     const {sideBar} = props;
     const [headerFixed, setHeaderFixed] = useState('')
@@ -73,6 +73,7 @@ function Detiled(props) {
         }
         
     }
+    const darkAttr = colorHeaderNavBool ? true: false
     return (
         <>
             <Head />
@@ -82,7 +83,7 @@ function Detiled(props) {
             <>
                 <Menu />
                 <div onTouchStart={handleTouchStart} onTouchMove={handleTouchEvent} onWheel={wheelMain} className={`${sideBar ? 'borderIn-20': 'borderOut-20'} ${ !cont ? 'detileBanIn': 'detileBanOut'}`} style={{height: '100vh', position: 'relative', overflow: 'hidden',}}>
-                    <Header className="header_fixed" darkAttr={false}/>
+                    <Header className="header_fixed" darkAttr={darkAttr}/>
                     <div className="h-100 detiledInfoWrapper">
                         <div className="imagebgDetiled" style={{backgroundImage: `url(${ props.bgImage || 'https://vintage.com.ua/uploads/0/1264-glavnaa.png'})`}}></div>
                         <div className="heading  animate__animated animate__fadeIn wow" data-wow-duration="1s" data-wow-delay="2s">
@@ -113,6 +114,7 @@ function Detiled(props) {
                                 !loading ?<Content />: null
                             }
                         </main>
+                        <DetiledFeedBack feetbackProp={feetbackProp}/>
                         <Footer/>
                     </div>
                 </div>

@@ -20,7 +20,27 @@ const langs = [
             '— Добавили карту с маркером местонахождения офиса агентства;',
             '— Разработали информационные страницы «О нас» и «Контакты»;',
             '— Провели презентацию сайта клиенту и получили одобрение.',
-        ]
+        ],
+        feetBack:{
+            hashtags:[
+                {id: 1, link: '/#', tag: 'DevOps'},
+                {id: 2, link: '/#', tag: 'Kubernetes '},
+                {id: 3, link: '/#', tag: 'Bitrix'},
+                {id: 4, link: '/#', tag: 'PHP'},
+                {id: 5, link: '/#', tag: 'MySQL'},
+                {id: 5, link: '/#', tag: 'React'},
+                {id: 6, link: '/#', tag: 'Go'},
+                {id: 7, link: '/#', tag: 'Git'},
+                {id: 8, link: '/#', tag: 'Docker'},
+                {id: 9, link: '/#', tag: 'Helm'},
+                {id: 10, link: '/', tag: 'nginx'},
+                {id: 11, link: '/', tag: 'Aerospike'},
+                {id: 12, link: '/', tag: 'PostgreSQL'},
+                {id: 13, link: '/', tag: 'Cilium'},
+                {id: 14, link: '/#', tag: 'SSR'},
+            ],
+            color: '#7BBA3E'
+        }   
     },
     {
         lange: 'en',
@@ -43,7 +63,27 @@ const langs = [
             "— Added a map with a marker of the location of the agency's office;",
             '— Developed information pages "About us" and "Contacts";',
             '— Conducted a presentation of the site to the client and received approval.',
-        ]
+        ],
+        feetBack:{
+            hashtags:[
+                {id: 1, link: '/#', tag: 'DevOps'},
+                {id: 2, link: '/#', tag: 'Kubernetes '},
+                {id: 3, link: '/#', tag: 'Bitrix'},
+                {id: 4, link: '/#', tag: 'PHP'},
+                {id: 5, link: '/#', tag: 'MySQL'},
+                {id: 5, link: '/#', tag: 'React'},
+                {id: 6, link: '/#', tag: 'Go'},
+                {id: 7, link: '/#', tag: 'Git'},
+                {id: 8, link: '/#', tag: 'Docker'},
+                {id: 9, link: '/#', tag: 'Helm'},
+                {id: 10, link: '/', tag: 'nginx'},
+                {id: 11, link: '/', tag: 'Aerospike'},
+                {id: 12, link: '/', tag: 'PostgreSQL'},
+                {id: 13, link: '/', tag: 'Cilium'},
+                {id: 14, link: '/#', tag: 'SSR'},
+            ],
+            color: '#7BBA3E'
+        }   
     },
 ]
 export default function Lange(lange){

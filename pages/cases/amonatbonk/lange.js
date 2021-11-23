@@ -3,7 +3,7 @@ const langs = [
         lange: 'ru',
         banText: 'Амонатбонк',
         customerHeading: 'Заказчик:',
-        customerTexts: 'Банковская организация «Амонатбонк» — одна из лидирующих компаний в отрасли микрофинансирования на рынке Таджикистана. Ею осуществляется доступное финансирование сельского населения, содействие в развитию малого и среднего бизнеса в бедных районах страны. ',
+        customerTexts: 'Удобство — вот чего не хватает пользователям сайтов банков. Информации много, разобраться в ней непросто,достучаться до поддержки еще сложнее.',
         tasksHeading: 'Задачи:',
         tasksTexts: 'Перед нами стояла задача создать информативный и удобный веб-сайт, на трех языках, который реализовывал бы цели клиентов компании: запрос микрофинансовой поддержки, заполнение заявок на займ, вложение денег в депозиты, поиск филиалов и банкоматов по близости и т.д.',
         implementionHeading: 'Реализация',
@@ -21,12 +21,32 @@ const langs = [
             '— Добавление инструмента для консультирования клиентов на сайте - JivoSite;',
             '— Презентация сайта безгранично благодарному клиенту',
         ],
+        feetBack:{
+            hashtags:[
+                {id: 1, link: '/#', tag: 'DevOps'},
+                {id: 2, link: '/#', tag: 'Kubernetes '},
+                {id: 3, link: '/#', tag: 'Bitrix'},
+                {id: 4, link: '/#', tag: 'PHP'},
+                {id: 5, link: '/#', tag: 'MySQL'},
+                {id: 5, link: '/#', tag: 'React'},
+                {id: 6, link: '/#', tag: 'Go'},
+                {id: 7, link: '/#', tag: 'Git'},
+                {id: 8, link: '/#', tag: 'Docker'},
+                {id: 9, link: '/#', tag: 'Helm'},
+                {id: 10, link: '/', tag: 'nginx'},
+                {id: 11, link: '/', tag: 'Aerospike'},
+                {id: 12, link: '/', tag: 'PostgreSQL'},
+                {id: 13, link: '/', tag: 'Cilium'},
+                {id: 14, link: '/#', tag: 'SSR'},
+            ],
+            color: '#08AB68'
+        }   
     },
     {
         lange: 'en',
         banText: 'Amonatbonk',
         customerHeading: 'Customer:',
-        customerTexts: 'Banking organization "Amonatbonk" is one of the leading companies in the microfinance industry in the Tajik market. It provides affordable financing for the rural population, assistance in the development of small and medium-sized businesses in the poor regions of the country.',
+        customerTexts: "Convenience is what users of banks' websites lack. There is a lot of information, it is not easy to understand it, it is even more difficult to get through to support.",
         tasksHeading: 'Tasks:',
         tasksTexts: "Our task was to create an informative and user-friendly website, in three languages, which would fulfill the goals of the company's clients: requesting microfinance support, filling out loan applications, investing in deposits, searching for branches and ATMs in the vicinity, etc.",
         implementionHeading: 'Implementation',
@@ -44,6 +64,26 @@ const langs = [
             '— Adding a tool for consulting clients on the site - JivoSite;',
             '— Presentation of the site to an infinitely grateful client',
         ],
+        feetBack:{
+            hashtags:[
+                {id: 1, link: '/#', tag: 'DevOps'},
+                {id: 2, link: '/#', tag: 'Kubernetes '},
+                {id: 3, link: '/#', tag: 'Bitrix'},
+                {id: 4, link: '/#', tag: 'PHP'},
+                {id: 5, link: '/#', tag: 'MySQL'},
+                {id: 5, link: '/#', tag: 'React'},
+                {id: 6, link: '/#', tag: 'Go'},
+                {id: 7, link: '/#', tag: 'Git'},
+                {id: 8, link: '/#', tag: 'Docker'},
+                {id: 9, link: '/#', tag: 'Helm'},
+                {id: 10, link: '/', tag: 'nginx'},
+                {id: 11, link: '/', tag: 'Aerospike'},
+                {id: 12, link: '/', tag: 'PostgreSQL'},
+                {id: 13, link: '/', tag: 'Cilium'},
+                {id: 14, link: '/#', tag: 'SSR'},
+            ],
+            color: '#08AB68'
+        }   
     }
 ]
 export default function Lange(lange){

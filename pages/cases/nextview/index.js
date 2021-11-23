@@ -7,9 +7,10 @@ export const index = (props) => {
     const [langeText] = Lange(props.lange);
     return <Detiled 
         mainClass="p-0"
-        siteName={langeText.banText}
         slogn=""
-        bgImage="/images/cases/nextview_bg.png"
+        feetbackProp={langeText.feetBack}
+        colorHeaderNavBool={true}
+        bgImage="/images/cases/nextview/nextview_bg.png"
         content={()=>(
             <>
                 <div className="detyledCase ">
@@ -21,7 +22,7 @@ export const index = (props) => {
                     </div>
                 </div>
                 <div className="imageWrapper mt-5 animate__animated animate__slideInUp " data-wow-offset="50" data-wow-duration="1s">
-                    <img src="/images/cases/nextview_2.png" className="img-fluid w-100" />
+                    <img src="/images/cases/nextview/nextview_1.png" className="img-fluid w-100" />
                 </div>
                 <div className="container py-5">
                     <div style={{overflow: 'hidden'}}>
@@ -32,7 +33,7 @@ export const index = (props) => {
                     </div>
                 </div>
                 <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1s">
-                    <img src="/images/cases/nextview_3.png" className="img-fluid w-100" />
+                    <img src="/images/cases/nextview/nextview_2.png" className="img-fluid w-100" />
                 </div>
                 <div className="container pt-5">
                     <div className="mb-5" style={{overflow: 'hidden'}}>
@@ -43,7 +44,48 @@ export const index = (props) => {
                     </div>
                 </div>
                 <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1s">
-                    <img src="/images/cases/nextview_4.png" className="img-fluid w-100" />
+                    <img src="/images/cases/nextview/nextview_3.png" className="img-fluid w-100" />
+                </div>
+                <div className="container pt-5">
+                    <div className="mb-5" style={{overflow: 'hidden'}}>
+                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1.3s">{langeText.implementionHeading}</h6>
+                        {
+                            langeText.implementionTexts.map((el, idx) => <p data-wow-duration="1.5s" className="col-md-7 px-0 animate__animated animate__fadeInDown wow" key={idx}>{el}</p>)
+                        }
+                    </div>
+                </div>
+                <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1s">
+                    <img src="/images/cases/nextview/nextview_4.png" className="img-fluid w-100" />
+                </div>
+                <div className="container pt-5">
+                    <div className="mb-5" style={{overflow: 'hidden'}}>
+                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1.3s">{langeText.implementionHeading}</h6>
+                        {
+                            langeText.implementionTexts.map((el, idx) => <p data-wow-duration="1.5s" className="col-md-7 px-0 animate__animated animate__fadeInDown wow" key={idx}>{el}</p>)
+                        }
+                    </div>
+                </div>
+                <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1s">
+                    <img src="/images/cases/nextview/nextview_5.png" className="img-fluid w-100" />
+                </div>
+                <div className="container pt-5">
+                    <div className="mb-5" style={{overflow: 'hidden'}}>
+                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1.3s">{langeText.implementionHeading}</h6>
+                        {
+                            langeText.implementionTexts.map((el, idx) => <p data-wow-duration="1.5s" className="col-md-7 px-0 animate__animated animate__fadeInDown wow" key={idx}>{el}</p>)
+                        }
+                    </div>
+                </div>
+                <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1s">
+                    <img src="/images/cases/nextview/nextview_6.png" className="img-fluid w-100" />
+                </div>
+                <div className="container pt-5">
+                    <div className="mb-5" style={{overflow: 'hidden'}}>
+                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1.3s">{langeText.implementionHeading}</h6>
+                        {
+                            langeText.implementionTexts.map((el, idx) => <p data-wow-duration="1.5s" className="col-md-7 px-0 animate__animated animate__fadeInDown wow" key={idx}>{el}</p>)
+                        }
+                    </div>
                 </div>
             </div>
             </>

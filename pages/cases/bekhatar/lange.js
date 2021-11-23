@@ -2,9 +2,9 @@ const langs = [
     {
         lange: 'ru',
         banText: 'Шаҳри бехатар',
-        customerHeading: 'Astore — является официальным партнером продукции Xiaomi в Таджикистане.',
+        customerHeading: 'Bibendum fringilla quis arcu purus tortor gravida erat massa',
         customerTexts: [
-            'При создании сайта для компании ASTORE мы выполнили следующие задачи:',
+            'При создании сайта мы выполнили следующие задачи:',
             '— Разработали и одобрили с клиентом дизайн сайта на основе фирменного стиля;',
             '— Разработали страницу «Товары»: добавили каталог продукции, разбив товары по категориям;',
             '— Добавили возможность заказа товаров через сайт;',
@@ -14,6 +14,26 @@ const langs = [
             '— Презентовали сайт клиенту;',
             '— Обучили сотрудников администрированию сайта.',
         ],
+        feetBack:{
+            hashtags:[
+                {id: 1, link: '/#', tag: 'DevOps'},
+                {id: 2, link: '/#', tag: 'Kubernetes '},
+                {id: 3, link: '/#', tag: 'Bitrix'},
+                {id: 4, link: '/#', tag: 'PHP'},
+                {id: 5, link: '/#', tag: 'MySQL'},
+                {id: 5, link: '/#', tag: 'React'},
+                {id: 6, link: '/#', tag: 'Go'},
+                {id: 7, link: '/#', tag: 'Git'},
+                {id: 8, link: '/#', tag: 'Docker'},
+                {id: 9, link: '/#', tag: 'Helm'},
+                {id: 10, link: '/', tag: 'nginx'},
+                {id: 11, link: '/', tag: 'Aerospike'},
+                {id: 12, link: '/', tag: 'PostgreSQL'},
+                {id: 13, link: '/', tag: 'Cilium'},
+                {id: 14, link: '/#', tag: 'SSR'},
+            ],
+            color: '#005395'
+        }   
         
     },
     {
@@ -31,6 +51,26 @@ const langs = [
             '— We presented the site to the client;',
             '— Trained employees in site administration.',
         ],
+        feetBack:{
+            hashtags:[
+                {id: 1, link: '/#', tag: 'DevOps'},
+                {id: 2, link: '/#', tag: 'Kubernetes '},
+                {id: 3, link: '/#', tag: 'Bitrix'},
+                {id: 4, link: '/#', tag: 'PHP'},
+                {id: 5, link: '/#', tag: 'MySQL'},
+                {id: 5, link: '/#', tag: 'React'},
+                {id: 6, link: '/#', tag: 'Go'},
+                {id: 7, link: '/#', tag: 'Git'},
+                {id: 8, link: '/#', tag: 'Docker'},
+                {id: 9, link: '/#', tag: 'Helm'},
+                {id: 10, link: '/', tag: 'nginx'},
+                {id: 11, link: '/', tag: 'Aerospike'},
+                {id: 12, link: '/', tag: 'PostgreSQL'},
+                {id: 13, link: '/', tag: 'Cilium'},
+                {id: 14, link: '/#', tag: 'SSR'},
+            ],
+            color: '#005395'
+        }   
     }
 ]
 export default function Lange(lange){

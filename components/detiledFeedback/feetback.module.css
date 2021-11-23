@@ -1,0 +1,67 @@
+.hashtags {
+    padding: 100px 0px;
+    background-color: green;
+}
+.hashtags h1{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 84px;
+    color: #FFFFFF;
+}
+.hashtags a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 227% */
+    color: #FFFFFF;
+    display: inline-block;
+    transition: all linear .8s;
+    border-bottom: 2px solid transparent;
+    padding: 2px;
+    margin: 10px 0px;
+    margin-right: 40px;
+
+}
+.hashtags a:last-child {
+    margin-right: 0px;
+}
+.hashtags a:hover{
+    text-decoration: none;
+    transition: all linear .2s;
+    border-bottom: 2px solid white;
+}
+.hashtags a:active {
+    color: black;
+    border-color: black;
+}
+.feedBack{
+    padding: 100px 0px;
+}
+.feedBack p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+.feedBack p a:hover{
+    text-decoration: none;;
+}
+.feedBack h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+.feedBack button {
+    background: #000000;
+    padding: 20px 50px;
+    border-radius: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.feedBack button:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, .8);
+}

@@ -83,7 +83,7 @@ export const cases = (props) => {
                     <div className="cases-wrapper mt-5">
                         {
                             cases.map(item => (
-                                <A key={item.id} href={pathname+item.pathName} className="cases-item animate__animated animate__fadeInUp wow" style={{background: ` url(${item.bgImage}) no-repeat center / cover`}} data-wow-duration="2s">
+                                <A key={item.id} href={pathname+item.pathName} className="cases-item animate__animated animate__fadeInUp wow" style={{background: ` url(${item.bgImage}) no-repeat center / 100% 100%`}} data-wow-duration="2s">
                                     <div className="portfolio-main">
                                         <div>
                                             <div className="text-wrapper_profile">
@@ -92,9 +92,9 @@ export const cases = (props) => {
                                         </div>
                                     </div>
                                     <div className="portfolio-description" style={{background: item.description.bg}}>
-                                        <h3>{item.description.headingTextH3}</h3>
-                                        <h6>{item.description.headingTextH6}</h6>
-                                        <p>{item.description.headingTextHP}</p>
+                                        <h3 style={{color: item.description.color}}>{item.description.headingTextH3}</h3>
+                                        <h6 style={{color: item.description.color}}>{item.description.headingTextH6}</h6>
+                                        <p  style={{color: item.description.color}}>{item.description.headingTextHP}</p>
                                     </div>
                                 </A>
                             ))

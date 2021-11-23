@@ -21,6 +21,26 @@ const langs = [
             '— Добавление инструмента для консультирования клиентов на сайте - JivoSite;',
             '— Презентация сайта безгранично благодарному клиенту',
         ],
+        feetBack:{
+            hashtags:[
+                {id: 1, link: '/#', tag: 'DevOps'},
+                {id: 2, link: '/#', tag: 'Kubernetes '},
+                {id: 3, link: '/#', tag: 'Bitrix'},
+                {id: 4, link: '/#', tag: 'PHP'},
+                {id: 5, link: '/#', tag: 'MySQL'},
+                {id: 5, link: '/#', tag: 'React'},
+                {id: 6, link: '/#', tag: 'Go'},
+                {id: 7, link: '/#', tag: 'Git'},
+                {id: 8, link: '/#', tag: 'Docker'},
+                {id: 9, link: '/#', tag: 'Helm'},
+                {id: 10, link: '/', tag: 'nginx'},
+                {id: 11, link: '/', tag: 'Aerospike'},
+                {id: 12, link: '/', tag: 'PostgreSQL'},
+                {id: 13, link: '/', tag: 'Cilium'},
+                {id: 14, link: '/#', tag: 'SSR'},
+            ],
+            color: '#FF6C2F'
+        }   
     },
     {
         lange: 'en',
@@ -44,6 +64,26 @@ const langs = [
             '— Adding a tool for consulting clients on the site - JivoSite;',
             '— Presentation of the site to an infinitely grateful client',
         ],
+        feetBack:{
+            hashtags:[
+                {id: 1, link: '/#', tag: 'DevOps'},
+                {id: 2, link: '/#', tag: 'Kubernetes '},
+                {id: 3, link: '/#', tag: 'Bitrix'},
+                {id: 4, link: '/#', tag: 'PHP'},
+                {id: 5, link: '/#', tag: 'MySQL'},
+                {id: 5, link: '/#', tag: 'React'},
+                {id: 6, link: '/#', tag: 'Go'},
+                {id: 7, link: '/#', tag: 'Git'},
+                {id: 8, link: '/#', tag: 'Docker'},
+                {id: 9, link: '/#', tag: 'Helm'},
+                {id: 10, link: '/', tag: 'nginx'},
+                {id: 11, link: '/', tag: 'Aerospike'},
+                {id: 12, link: '/', tag: 'PostgreSQL'},
+                {id: 13, link: '/', tag: 'Cilium'},
+                {id: 14, link: '/#', tag: 'SSR'},
+            ],
+            color: '#FF6C2F'
+        }   
     }
 ]
 export default function Lange(lange){

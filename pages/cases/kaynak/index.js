@@ -5,12 +5,12 @@ import Lange from './lange';
 
 export const index = (props) => {
     const [langeText] = Lange(props.lange);
-    console.log(langeText)
     return <Detiled 
         mainClass="p-0"
-        siteName={langeText.banText}
         slogn=""
-        bgImage="/images/cases/kaynak_bg.png"
+        feetbackProp={langeText.feetBack}
+        colorHeaderNavBool={true}
+        bgImage="/images/cases/kaynak/kaynak_bg.png"
         content={()=>(
             <>
                 <div className="detyledCase ">
@@ -20,11 +20,11 @@ export const index = (props) => {
                         {
                             langeText.customerTexts.map((el, idx) => <p className="col-md-7 px-0 animate__animated animate__fadeInDown" key={idx}>{el}</p>)
                         }
-                        <a href="https://www.kaynak.tj/" target="_blanck" style={{color: "#FBC200"}}>www.kaynak.tj</a> 
+                        <a href="https://www.kaynak.tj/" target="_blanck" style={{color: langeText.feetBack.color}}>www.kaynak.tj</a> 
                     </div>
                 </div>
                 <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.5s">
-                    <img src="/images/cases/kaynak_2.png" className="img-fluid w-100" />
+                    <img src="/images/cases/kaynak/kaynak_1.png" className="img-fluid w-100" />
                 </div>
                 <div className="container pt-5">
                     <div className="mb-5" style={{overflow: 'hidden'}}>
@@ -35,10 +35,48 @@ export const index = (props) => {
                     </div>
                 </div>
                 <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.5s">
-                    <img src="/images/cases/kaynak_3.png" className="img-fluid w-100" />
+                    <img src="/images/cases/kaynak/kaynak_2.png" className="img-fluid w-100" />
+                </div>
+                <div className="container pt-5">
+                    <div className="mb-5" style={{overflow: 'hidden'}}>
+                        <h6 className="animate__animated animate__fadeInDown" >{langeText.customerHeading}</h6>
+                        {
+                            langeText.customerTexts.map((el, idx) => <p className="col-md-7 px-0 animate__animated animate__fadeInDown wow " data-wow-duration="1.2s" key={idx}>{el}</p>)
+                        }
+                    </div>
                 </div>
                 <div className="imageWrapper animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.5s">
-                    <img src="/images/cases/kaynak_4.png" className="img-fluid w-100" />
+                    <img src="/images/cases/kaynak/kaynak_3.png" className="img-fluid w-100" />
+                </div>
+                <div className="container pt-5">
+                    <div className="mb-5" style={{overflow: 'hidden'}}>
+                        <h6 className="animate__animated animate__fadeInDown" >{langeText.customerHeading}</h6>
+                        {
+                            langeText.customerTexts.map((el, idx) => <p className="col-md-7 px-0 animate__animated animate__fadeInDown wow " data-wow-duration="1.2s" key={idx}>{el}</p>)
+                        }
+                    </div>
+                </div>
+                <div className="imageWrapper animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.5s">
+                    <img src="/images/cases/kaynak/kaynak_4.png" className="img-fluid w-100" />
+                </div>
+                <div className="container pt-5">
+                    <div className="mb-5" style={{overflow: 'hidden'}}>
+                        <h6 className="animate__animated animate__fadeInDown" >{langeText.customerHeading}</h6>
+                        {
+                            langeText.customerTexts.map((el, idx) => <p className="col-md-7 px-0 animate__animated animate__fadeInDown wow " data-wow-duration="1.2s" key={idx}>{el}</p>)
+                        }
+                    </div>
+                </div>
+                <div className="imageWrapper animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.5s">
+                    <img src="/images/cases/kaynak/kaynak_5.png" className="img-fluid w-100" />
+                </div>
+                <div className="container pt-5">
+                    <div className="mb-5" style={{overflow: 'hidden'}}>
+                        <h6 className="animate__animated animate__fadeInDown" >{langeText.customerHeading}</h6>
+                        {
+                            langeText.customerTexts.map((el, idx) => <p className="col-md-7 px-0 animate__animated animate__fadeInDown wow " data-wow-duration="1.2s" key={idx}>{el}</p>)
+                        }
+                    </div>
                 </div>
             </div>
             </>

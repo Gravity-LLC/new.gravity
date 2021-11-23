@@ -5,12 +5,11 @@ import Lange from './lange';
 
 export const index = (props) => {
     const [langeText] = Lange(props.lange);
-    console.log(langeText)
     return <Detiled 
         mainClass="p-0"
-        siteName={langeText.banText}
+        feetbackProp={langeText.feetBack}
         slogn=""
-        bgImage="/images/cases/osiaf_1.png"
+        bgImage="/images/cases/osiaf/osiaf_bg.png"
         content={()=>(
             <>
                 <div className="detyledCase ">
@@ -23,7 +22,7 @@ export const index = (props) => {
                     
                 </div>
                 <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
-                    <img src="/images/cases/osiaf_2.png" className="img-fluid w-100" />
+                    <img src="/images/cases/osiaf/osiaf_1.png" className="img-fluid w-100" />
                 </div>
                 <div className="container pt-5" style={{overflow: 'hidden'}}>
                     <div className="my-4 col-md-10 ">
@@ -32,7 +31,7 @@ export const index = (props) => {
                     </div>
                 </div>
                 <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
-                    <img src="/images/cases/osiaf_3.png" className="img-fluid w-100" />
+                    <img src="/images/cases/osiaf/osiaf_2.png" className="img-fluid w-100" />
                 </div>
                 <div className="container py-5" style={{overflow: 'hidden'}}>
                     <div className="my-4 ">
@@ -43,7 +42,26 @@ export const index = (props) => {
                     </div>
                 </div>
                 <div className="imageWrapper animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
-                    <img src="/images/cases/osiaf_4.png" className="img-fluid w-100" />
+                    <img src="/images/cases/osiaf/osiaf_3.png" className="img-fluid w-100" />
+                </div>
+                <div className="container py-5" style={{overflow: 'hidden'}}>
+                    <div className="my-4 ">
+                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1s">{langeText.implementionHeading}</h6>
+                        {
+                            langeText.implementionTexts.map((el, idx) => <p key={idx} className="col-md-8 px-0 animate__animated animate__fadeInDown wow" data-wow-duration="1.2s">{el}</p>)
+                        }
+                    </div>
+                </div>
+                <div className="imageWrapper animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
+                    <img src="/images/cases/osiaf/osiaf_4.png" className="img-fluid w-100" />
+                </div>
+                <div className="container py-5" style={{overflow: 'hidden'}}>
+                    <div className="my-4 ">
+                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1s">{langeText.implementionHeading}</h6>
+                        {
+                            langeText.implementionTexts.map((el, idx) => <p key={idx} className="col-md-8 px-0 animate__animated animate__fadeInDown wow" data-wow-duration="1.2s">{el}</p>)
+                        }
+                    </div>
                 </div>
             </div>
             </>

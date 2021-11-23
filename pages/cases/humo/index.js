@@ -5,12 +5,11 @@ import Lange from './lange';
 
 export const index = (props) => {
     const [langeText] = Lange(props.lange);
-    console.log(langeText)
     return <Detiled 
         mainClass="p-0"
-        siteName={langeText.banText}
+        feetbackProp={langeText.feetBack}
         slogn=""
-        bgImage="/images/cases/humo_bg.png"
+        bgImage="/images/cases/humo/humo_bg.png"
         content={()=>(
             <>
                 <div className="detyledCase ">
@@ -18,12 +17,12 @@ export const index = (props) => {
                     <div className="mb-5" style={{overflow: 'hidden'}}>
                         <h6 className="animate__animated animate__fadeInDown">{langeText.customerHeading}</h6>
                         <p className="col-md-7 px-0 animate__animated animate__fadeInDown " >{langeText.customerTexts}</p>
-                        <a href="https://humo.tj/ru/" target="_blanck" style={{color: "#FD7F04"}}>www.humo.tj</a> 
+                        <a href="https://humo.tj/ru/" target="_blanck" style={{color: langeText.feetBack.color}}>www.humo.tj</a> 
                     </div>
                     
                 </div>
                 <div className="imageWrapper mt-5 animate__animated animate__slideInUp" data-wow-offset="50" data-wow-duration="1.2s">
-                    <img src="/images/cases/humo_2.png" className="img-fluid w-100" />
+                    <img src="/images/cases/humo/humo_1.png" className="img-fluid w-100" />
                 </div>
                 <div className="container pt-5" style={{overflow: 'hidden'}}>
                     <div className="my-4 col-md-10 ">
@@ -32,7 +31,10 @@ export const index = (props) => {
                     </div>
                 </div>
                 <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
-                    <img src="/images/cases/humo_3.png" className="img-fluid w-100" />
+                    <img src="/images/cases/humo/humo_2.png" className="img-fluid w-100" />
+                </div>
+                <div className="imageWrapper animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
+                    <img src="/images/cases/humo/humo_3.png" className="img-fluid w-100" />
                 </div>
                 <div className="container py-5" style={{overflow: 'hidden'}}>
                     <div className="my-4 ">
@@ -43,7 +45,18 @@ export const index = (props) => {
                     </div>
                 </div>
                 <div className="imageWrapper animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
-                    <img src="/images/cases/humo_4.png" className="img-fluid w-100" />
+                    <img src="/images/cases/humo/humo_4.png" className="img-fluid w-100" />
+                </div>
+                <div className="container py-5" style={{overflow: 'hidden'}}>
+                    <div className="my-4 ">
+                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1s">{langeText.implementionHeading}</h6>
+                        {
+                            langeText.implementionTexts.map((el, idx) => <p key={idx} className="col-md-8 px-0 animate__animated animate__fadeInDown wow" data-wow-duration="1.2s">{el}</p>)
+                        }
+                    </div>
+                </div>
+                <div className="imageWrapper animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
+                    <img src="/images/cases/humo/humo_5.png" className="img-fluid w-100" />
                 </div>
             </div>
             </>
