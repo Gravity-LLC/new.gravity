@@ -105,7 +105,7 @@ export const casesRu = [
     {
         id: 9,
         pathName: '/pbo',
-        heading: {text:'Portal of beneficial ownership Extractive', color: '#000'},
+        heading: {text:'Portal of beneficial ownership Extractive', color: '#fff'},
         description: {
             bg: '#00CAFF',
             headingTextH3: 'Portal of beneficial ownership Extractive',
@@ -261,7 +261,7 @@ export const casesEn = [
     {
         id: 9,
         pathName: '/pbo',
-        heading: {text:'Portal of beneficial ownership Extractive', color: '#000'},
+        heading: {text:'Portal of beneficial ownership Extractive', color: '#fff'},
         description: {
             bg: '#00CAFF',
             headingTextH3: 'Portal of beneficial ownership Extractive',

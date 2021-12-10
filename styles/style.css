@@ -430,7 +430,7 @@ h2.heading{
 }
 #cases .cases-wrapper .cases-item{
 	background-color: hotpink;
-	min-height: 400px;
+	min-height: 335px;
 	overflow: hidden;
 	position: relative;
 }
@@ -891,4 +891,8 @@ h2.heading{
 	100%{
 		top: 0px
 	}
+}
+main {
+	max-width: 1500px;
+    margin: 0 auto;
 }

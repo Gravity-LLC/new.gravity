@@ -10,6 +10,8 @@ export const index = (props) => {
         feetbackProp={langeText.feetBack}
         slogn=""
         colorHeaderNavBool={true}
+        langColorBan={'text-dark'}
+        arrowClass={'bg-dark'}
         bgImage="/images/cases/tajset/tajset_bg.png"
         content={()=>(
             <>

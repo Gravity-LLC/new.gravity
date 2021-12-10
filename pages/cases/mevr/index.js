@@ -10,6 +10,7 @@ export const index = (props) => {
         slogn=""
         bgImage="/images/cases/mevr/mevr_bg.png"
         feetbackProp={langeText.feetBack}
+        
         content={()=>(
             <>
                 <div className="detyledCase ">

@@ -10,6 +10,8 @@ export const index = (props) => {
         slogn=""
         colorHeaderNavBool={true}
         feetbackProp={langeText.feetBack}
+        langColorBan={'text-dark'}
+        arrowClass={'bg-dark'}
         bgImage="/images/cases/astore/astore_bg.png"
         content={()=>(
             <>

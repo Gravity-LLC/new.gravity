@@ -13,7 +13,6 @@ export const startproject = (props) => {
         e.preventDefault()
         const nameEl = document.querySelector(' #nameEl').value;
         const phoneEl = document.querySelector('#phoneEl').value;
-        console.log(nameEl, phoneEl, checkeds);
         const text = `
             <div style="width: 90%; height: 100%; background: #000000; padding: 10px 20px; margin:0px auto">
                 <div>

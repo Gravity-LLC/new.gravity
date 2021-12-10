@@ -10,6 +10,8 @@ export const index = (props) => {
         slogn=""
         feetbackProp={langeText.feetBack}
         colorHeaderNavBool={true}
+        langColorBan={'text-dark'}
+        arrowClass={'bg-dark'}  
         bgImage="/images/cases/kaynak/kaynak_bg.png"
         content={()=>(
             <>

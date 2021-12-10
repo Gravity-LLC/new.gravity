@@ -55,13 +55,16 @@
         font-size: 62px;
     }
     #cases .cases-wrapper .cases-item{
-        min-height: 350px;
+        min-height: 240px;
     }
     #cases .cases-item .portfolio-main, #cases .cases-wrapper .cases-item .portfolio-description, #cases .cases-wrapper .cases-item .portfolio-description>div{
-        padding: 25px
+        padding: 20px
     }
     #cases .cases-wrapper .cases-item h3{
-        font-size: 22px;
+        font-size: 16px;
+    }
+    #cases .cases-wrapper .cases-item h6{
+        font-size: 14px;
     }
     #startProject .pos .or-md-1{
         order: 2;
@@ -69,6 +72,15 @@
     #startProject .pos .or-md-2{
         order: 1;
     }
+    .feetback_hashtags__iDcDs h1{
+        font-size: 50px !important;
+        line-height: 64px !important;
+    }
+    .feetback_hashtags__iDcDs a{
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    
 }
 /*sm*/
 @media only screen and (max-width: 576px){
@@ -166,10 +178,10 @@
         line-height: 18px;
     }
     #cases .cases-wrapper .cases-item{
-        min-height: 300px;
+        min-height: 210px;
     }
     #cases .cases-wrapper .cases-item h3 {
-        font-size: 20px;
+        font-size: 16px;
     }
     #cases .cases-wrapper .cases-item h6 {
         font-size: 14px;
@@ -211,6 +223,22 @@
         font-size: 12px;
         line-height: 14px;
     }
+    .feetback_hashtags__iDcDs{
+        padding: 60px 0px !important;
+    }
+    .feetback_hashtags__iDcDs h1{
+        font-size: 42px !important;
+        line-height: 54px !important;
+    }
+    .feetback_feedBack__FyxDv p{
+        font-size: 16px !important;
+    }
+    .feetback_feedBack__FyxDv h2{
+        font-size: 32px !important;
+    }
+    .feetback_hashtags__iDcDs a{
+        margin-right: 15px !important;
+    }
 }
 @media only screen and (max-width: 330px){
     #studio .info_project .info_project-item .num{
@@ -237,7 +265,7 @@
         min-height: 200px;
     }
     #cases .cases-wrapper .cases-item h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
     #cases .cases-item .portfolio-main, #cases .cases-wrapper .cases-item .portfolio-description, #cases .cases-wrapper .cases-item .portfolio-description>div{
         padding: 15px 10px
@@ -248,5 +276,8 @@
     h2.heading {
         font-size: 22px;
         line-height: 26px;
+    }
+    .feetback_feedBack__FyxDv button{
+        width: 100%;
     }
 }

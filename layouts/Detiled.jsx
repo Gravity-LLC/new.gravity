@@ -9,7 +9,7 @@ import { bindActionCreators } from 'redux';
 import * as actions from '../actions/actions';
 import DetiledFeedBack from '../components/detiledFeedback/DetiledFeedBack';
 function Detiled(props) {
-    const {initialLange, mainClass, headerClass, feetbackProp, colorHeaderNavBool} = props;
+    const {initialLange, mainClass, headerClass, feetbackProp, colorHeaderNavBool, langColorBan, arrowClass} = props;
     const [loading, setLoading] = useState(true);
     const {sideBar} = props;
     const [headerFixed, setHeaderFixed] = useState('')
@@ -92,12 +92,12 @@ function Detiled(props) {
                         </div>
                         <div className="line_bootm">
                             <button onClick={e => setCont(false)} className="btn">
-                                <span></span>
+                                <span className={arrowClass}></span>
                             </button>
                         </div>
                         <div className="lang_wrap">
-                            <button onClick={props.ruLange} className="btn">Rus</button>
-                            <button onClick={props.enLange} className="btn">Eng</button>
+                            <button onClick={props.ruLange} className={`btn ${langColorBan}`}>Rus</button>
+                            <button onClick={props.enLange} className={`btn ${langColorBan}`}>Eng</button>
                         </div>
                     </div>
                     <div className="container detyled_line_wrapper">
