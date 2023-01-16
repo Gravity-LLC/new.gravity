@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { connect } from 'react-redux';
 import {Detiled} from '../../../layouts/index';
 import Lange from './lange';
 
 export const index = (props) => {
-    const [langeText] = Lange(props.lange);
+    const [langeText] = useMemo(() => Lange(props.lange), [props.lange]);
+    console.log( Lange(props.lange))
     return <Detiled 
         mainClass="p-0"
         feetbackProp={langeText.feetBack}
@@ -47,14 +48,14 @@ export const index = (props) => {
                 <div className="imageWrapper animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
                     <img src="/images/cases/humo/humo_4.png" className="img-fluid w-100" />
                 </div>
-                <div className="container py-5" style={{overflow: 'hidden'}}>
+                {/* <div className="container py-5" style={{overflow: 'hidden'}}>
                     <div className="my-4 ">
                         <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1s">{langeText.implementionHeading}</h6>
                         {
                             langeText.implementionTexts.map((el, idx) => <p key={idx} className="col-md-8 px-0 animate__animated animate__fadeInDown wow" data-wow-duration="1.2s">{el}</p>)
                         }
                     </div>
-                </div>
+                </div> */}
                 <div className="imageWrapper animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.2s">
                     <img src="/images/cases/humo/humo_5.png" className="img-fluid w-100" />
                 </div>

@@ -2,94 +2,64 @@ const langs = [
     {
         lange: 'ru',
         banText: 'Snowdrop',
-        linkSite: {
-            color: '',
-            
-        },
         customerHeading: 'Заказчик:',
-        customerTexts: 'Банковская организация «Snowdrop» — одна из лидирующих компаний в отрасли микрофинансирования на рынке Таджикистана. Ею осуществляется доступное финансирование сельского населения, содействие в развитию малого и среднего бизнеса в бедных районах страны. ',
-        tasksHeading: 'Задачи:',
-        tasksTexts: 'Перед нами стояла задача создать информативный и удобный веб-сайт, на трех языках, который реализовывал бы цели клиентов компании: запрос микрофинансовой поддержки, заполнение заявок на займ, вложение денег в депозиты, поиск филиалов и банкоматов по близости и т.д.',
-        implementionHeading: 'Реализация',
+        customerTexts: 'Snowdrop - сайт для любителей почитать интересные, полезные книги и статьи в очень удобном интерфейсе. Здесь еще вы можете найти книги для детей с захватывающими и интересными сюжетами.',
+        tasksHeading: 'Задачи, которые были реализованы при создании сайта:',
+        tasksTexts: 'Задача была создать эффективный и удобный интерфейс для читателей сайта, тем самым впечатлить их лёгкостью поиска нужной книги и статьи для чтения.',
+        implementionHeading: 'При реализации проекта нами были выполнены следующие задачи:',
         implementionTexts: [
-            'При реализации проекта нами были выполнены следующие задачи и шаги:',
-            '— Разработка функционального дизайна сайта, в соответствии с фирменным стилем;',
-            '— Верстка сайта и его программирование;',
-            '— Создали 3 языковые версии сайта;',
-            '— Внедрение модуля для выдачи официального курса валют, автоматизированный с сайтом НБТ;',
-            '— Добавление функции «Онлайн конвертер» для быстрой конвертации валют;',
-            '— Разработка модулей «Кредитный калькулятор» и «Депозитный калькулятор»;',
-            '— Добавление карты с маркерами филиальной сети организации, для максимально удобного нахождения филиалов и банкоматов поблизости с пользователем;',
-            '— Разработка модуля «Поиск по сайту», для быстрого нахождения информации по ключевым словам;',
-            '— Внедрение форм на оформление клиентами заявкок на кредит, депозит, открытие расчётного счета в режиме онлайн;',
-            '— Добавление инструмента для консультирования клиентов на сайте - JivoSite;',
-            '— Презентация сайта безгранично благодарному клиенту',
+            `— Разработка функционального дизайна сайта, в соответствии с фирменным стилем;`,
+            `— Вёрстка сайта в соответствии с утвержденными дизайн-макетами`,
+            `— Удобный формат чтения`,
+            `— Разработка и адаптивная верстка сайта ;`,
+            `— Настройка, подбор и наполнение сайта информацией;`,
+            `— Разработка возможности регистрации на сайте и добавление функционала разного формата (каталог и т.д.)`,
+
         ],
-        feetBack:{
-            hashtags:[
-                {id: 1, link: '/#', tag: 'DevOps'},
-                {id: 2, link: '/#', tag: 'Kubernetes '},
-                {id: 3, link: '/#', tag: 'Bitrix'},
-                {id: 4, link: '/#', tag: 'PHP'},
-                {id: 5, link: '/#', tag: 'MySQL'},
-                {id: 5, link: '/#', tag: 'React'},
-                {id: 6, link: '/#', tag: 'Go'},
-                {id: 7, link: '/#', tag: 'Git'},
-                {id: 8, link: '/#', tag: 'Docker'},
-                {id: 9, link: '/#', tag: 'Helm'},
-                {id: 10, link: '/', tag: 'nginx'},
-                {id: 11, link: '/', tag: 'Aerospike'},
-                {id: 12, link: '/', tag: 'PostgreSQL'},
-                {id: 13, link: '/', tag: 'Cilium'},
-                {id: 14, link: '/#', tag: 'SSR'},
+        feetBack: {
+            hashtags: [
+                { id: 1, link: '/#', tag: 'UI/UX' },
+                { id: 2, link: '/#', tag: 'Html ' },
+                { id: 3, link: '/#', tag: 'Css' },
+                { id: 4, link: '/#', tag: 'JavaScript' },
+                { id: 5, link: '/#', tag: 'Laravel' },
+                { id: 5, link: '/#', tag: 'PHP' },
+                { id: 6, link: '/#', tag: 'MySQL' },
             ],
             color: '#009875'
-        }   
+        }
     },
     {
         lange: 'en',
         banText: 'Snowdrop',
         customerHeading: 'Customer:',
-        customerTexts: 'Banking organization "Snowdrop" is one of the leading companies in the microfinance industry in the Tajik market. It provides affordable financing for the rural population, assistance in the development of small and medium-sized businesses in the poor regions of the country.',
-        tasksHeading: 'Tasks:',
-        tasksTexts: "Our task was to create an informative and user-friendly website, in three languages, which would fulfill the goals of the company's clients: requesting microfinance support, filling out loan applications, investing in deposits, searching for branches and ATMs in the vicinity, etc.",
-        implementionHeading: 'Implementation',
-        implementionTexts: [
-            'During the implementation of the project, we completed the following tasks and steps:',
-            '— Development of a functional website design in accordance with the corporate identity;',
-            '— Site layout and programming;',
-            '— Created 3 language versions of the site;',
-            '— Implementation of a module for issuing the official exchange rate, automated with the NBT website;',
-            '— Adding the function "Online Converter" for quick currency conversion;',
-            '— Development of modules "Loan calculator" and "Deposit calculator";',
-            "— Adding a card with markers of the organization's branch network, for the most convenient location of branches and ATMs near the user;",
-            '— Development of the "Site Search" module to quickly find information by keywords;',
-            '— Implementation of forms for the execution of applications by clients for a loan, deposit, opening a current account online;',
-            '— Adding a tool for consulting clients on the site - JivoSite;',
-            '— Presentation of the site to an infinitely grateful client',
+        customerTexts: 'Snowdrop is a website for fans of reading interesting, useful books and articles in a very user-friendly interface. Here you can also find books for children with exciting and interesting stories.',
+        tasksHeading: 'Tasks that were implemented when creating the site:',
+        tasksTexts: 'The task was to create an effective and user-friendly interface for the readers of the site, thereby impressing them with the ease of finding the right book and article to read.',
+        Implementationheading: 'During the implementation of the project, we performed the following tasks:',
+        Implementationtexts: [
+            `— Development of a functional website design, in accordance with the corporate identity;`,
+            `— Layout of the site in accordance with the approved design layouts`,
+            `— Convenient reading format`,
+            `— Development and adaptive layout of the site ;`,
+            `— Setting up, selecting and filling the site with information;`,
+            `— Development of the possibility of registering on the site and adding functionality of different formats (catalog, etc.)`,
+
         ],
-        feetBack:{
-            hashtags:[
-                {id: 1, link: '/#', tag: 'DevOps'},
-                {id: 2, link: '/#', tag: 'Kubernetes '},
-                {id: 3, link: '/#', tag: 'Bitrix'},
-                {id: 4, link: '/#', tag: 'PHP'},
-                {id: 5, link: '/#', tag: 'MySQL'},
-                {id: 5, link: '/#', tag: 'React'},
-                {id: 6, link: '/#', tag: 'Go'},
-                {id: 7, link: '/#', tag: 'Git'},
-                {id: 8, link: '/#', tag: 'Docker'},
-                {id: 9, link: '/#', tag: 'Helm'},
-                {id: 10, link: '/', tag: 'nginx'},
-                {id: 11, link: '/', tag: 'Aerospike'},
-                {id: 12, link: '/', tag: 'PostgreSQL'},
-                {id: 13, link: '/', tag: 'Cilium'},
-                {id: 14, link: '/#', tag: 'SSR'},
+        feetBack: {
+            hashtags: [
+                { id: 1, link: '/#', tag: 'UI/UX' },
+                { id: 2, link: '/#', tag: 'Html ' },
+                { id: 3, link: '/#', tag: 'Css' },
+                { id: 4, link: '/#', tag: 'JavaScript' },
+                { id: 5, link: '/#', tag: 'Laravel' },
+                { id: 5, link: '/#', tag: 'PHP' },
+                { id: 6, link: '/#', tag: 'MySQL' },
             ],
             color: '#009875'
-        }   
+        }
     }
 ]
-export default function Lange(lange){
+export default function Lange(lange) {
     return langs.filter(item => item.lange === lange)
 }

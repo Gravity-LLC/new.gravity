@@ -1,99 +1,73 @@
 const langs = [
     {
         lange: 'ru',
-        banText: 'EURODENT',
+        banText: 'PBO-EITI Tajikistan',
         customerHeading: 'Заказчик:',
         customerTexts: [
-            'Немецкая стоматологическая клиника «Евродент». ',
-            'Первоклассная семейная клиника, где используются самые передовые технологии и предоставляется неотложная помощь для всей семьи. ',
+            `PBO-EITI Tajikistan - портал бенефициарного права в рамках инициативы прозрачности добывающих отраслей.`,
+            `Общедоступный реестр бенефициарных собственников юридических лиц, которые владеют долей участия по контракту или лицензии на разведку или добычу нефти, газа или минеральных ресурсов.`,
         ],
-        tasksHeading: 'Поставленные задачи:',
+        tasksHeading: 'Задачи, которые были реализованы при создании сайта:',
         tasksTexts: [
-            '— Продумать и разработать дизайн сайта в корпоративных цветах клиники; ',
-            '— Гармонично вписать уникальные фотографии клиники; ',
-            '— Добавление некоторых статистических данных клиники, чтобы вызвать доверие клиента; ',
-            '— Размещение колонки для того, чтобы клиенты могли оставить отзыв; ',
-            '— Размещение последних новостей в сфере стоматологии, чтобы вызвать интерес клиентов. '
+            'Задача была разработать максимально удобный сайт, где с лёгкостью можно найти  информацию о компании и их бенефициарных собственников.',
         ],
-        archHeading: 'Что входит в структуру сайта: ',
+        archHeading: 'При реализации проекта нами были выполнены следующие задачи:',
         arcTexts: [
-            '— Раздел с полным перечнем услуг стоматологии; ',
-            '— Детальное описание услуг клиники; ',
-            '— Форма записи на прием к врачу или консультацию к специалисту. Можно оставить заявку онлайн и ждать звонка специалиста, что очень удобно для клиентов; ',
-            '— Реалистичные изображения, нет кричащих элементов, сдержанная палитра и стильный вид; ',
-            '— Страница со специалистами клиники. Очень важно, чтобы был представлен персонал и посетители могли ознакомиться с опытом работы доктора; ',
-            '— Информация о клинике позволит повысить доверие потенциальных клиентов прийти к вам; ',
-            '— Контактная информация. Телефоны, адрес, как проехать, расположение на карте. ',
+            `— Разработка адаптивного дизайна главной страницы;`,
+            `— Наполнение сайта нужной информацией;`,
+            `— Добавление иконок для сайта.`,
+            `— Адаптация сайта под разные форматы пользования `,
+            `— Удобный способ навигации и поиска информации о компании и их бенефициарных собственников`,
+            `— Добавлены разные фильтры для удобного поиска собственника `,
         ],
-        feetBack:{
-            hashtags:[
-                {id: 1, link: '/#', tag: 'DevOps'},
-                {id: 2, link: '/#', tag: 'Kubernetes '},
-                {id: 3, link: '/#', tag: 'Bitrix'},
-                {id: 4, link: '/#', tag: 'PHP'},
-                {id: 5, link: '/#', tag: 'MySQL'},
-                {id: 5, link: '/#', tag: 'React'},
-                {id: 6, link: '/#', tag: 'Go'},
-                {id: 7, link: '/#', tag: 'Git'},
-                {id: 8, link: '/#', tag: 'Docker'},
-                {id: 9, link: '/#', tag: 'Helm'},
-                {id: 10, link: '/', tag: 'nginx'},
-                {id: 11, link: '/', tag: 'Aerospike'},
-                {id: 12, link: '/', tag: 'PostgreSQL'},
-                {id: 13, link: '/', tag: 'Cilium'},
-                {id: 14, link: '/#', tag: 'SSR'},
+        feetBack: {
+            hashtags: [
+                { id: 1, link: '/#', tag: 'UI/UX' },
+                { id: 2, link: '/#', tag: 'Html ' },
+                { id: 3, link: '/#', tag: 'Css' },
+                { id: 4, link: '/#', tag: 'JavaScript' },
+                { id: 5, link: '/#', tag: 'Laravel' },
+                { id: 5, link: '/#', tag: 'PHP' },
+                { id: 6, link: '/#', tag: 'MySQL' },
             ],
             color: '#0084E9'
-        }   
+        }
     },
     {
         lange: 'en',
-        banText: 'EURODENT',
+        banText: 'PBO-EITI Tajikistan',
         customerHeading: 'Customer:',
         customerTexts: [
-            'German dental clinic "Eurodent". ',
-            'A first-class family clinic that uses the most advanced technology and provides emergency care for the entire family.',
+            `PBO-EITI Tajikistan is a beneficial ownership portal within the Extractive Industries Transparency Initiative.`,
+            `A publicly available register of beneficial owners of legal entities that own a participation interest under a contract or license for the exploration or production of oil, gas or mineral resources.`,
         ],
-        tasksHeading: 'Assigned tasks:',
+        tasksHeading: 'Tasks that were implemented when creating the site:',
         tasksTexts: [
-            '— Think over and develop a website design in the corporate colors of the clinic;',
-            '— To harmoniously fit the unique photographs of the clinic; ',
-            '— Adding some statistics of the clinic to build customer confidence; ',
-            '— Column placement for customers to leave a review; ',
-            '— Posting the latest news in the field of dentistry to generate interest from clients.'
+            "The task was to develop the most convenient website where you can easily find information about the company and their beneficial owners.",
         ],
-        archHeading: 'What is included in the site structure:',
+        archHeading: 'During the implementation of the project, we completed the following tasks:',
         arcTexts: [
-            '— Section with a complete list of dental services; ',
-            "— Detailed description of the clinic's services;",
-            '— An appointment form for an appointment with a doctor or a consultation with a specialist. You can leave an application online and wait for a call from a specialist, which is very convenient for clients;',
-            '— Realistic images, no flashy elements, a discreet palette and a stylish look;',
-            "— The page with the clinic's specialists. It is very important that staff are presented and visitors can familiarize themselves with the doctor's experience;",
-            '— Information about the clinic will increase the confidence of potential clients to come to you;',
-            '— Contact Information. Phones, address, how to get there, location on the map.',
+            `— Development of adaptive design of the main page;`,
+            `— Filling the site with the necessary information;`,
+            `— Adding icons for the site.`,
+            ` — Website adaptation for different usage formats `,
+            `— A convenient way to navigate and search for information about the company and their beneficial owners`,
+            `— Added different filters for easy search of the owner `,
         ],
-        feetBack:{
-            hashtags:[
-                {id: 1, link: '/#', tag: 'DevOps'},
-                {id: 2, link: '/#', tag: 'Kubernetes '},
-                {id: 3, link: '/#', tag: 'Bitrix'},
-                {id: 4, link: '/#', tag: 'PHP'},
-                {id: 5, link: '/#', tag: 'MySQL'},
-                {id: 5, link: '/#', tag: 'React'},
-                {id: 6, link: '/#', tag: 'Go'},
-                {id: 7, link: '/#', tag: 'Git'},
-                {id: 8, link: '/#', tag: 'Docker'},
-                {id: 9, link: '/#', tag: 'Helm'},
-                {id: 10, link: '/', tag: 'nginx'},
-                {id: 11, link: '/', tag: 'Aerospike'},
-                {id: 12, link: '/', tag: 'PostgreSQL'},
-                {id: 13, link: '/', tag: 'Cilium'},
-                {id: 14, link: '/#', tag: 'SSR'},
+        feetBack: {
+            hashtags: [
+                { id: 1, link: '/#', tag: 'UI/UX' },
+                { id: 2, link: '/#', tag: 'Html ' },
+                { id: 3, link: '/#', tag: 'Css' },
+                { id: 4, link: '/#', tag: 'JavaScript' },
+                { id: 5, link: '/#', tag: 'Laravel' },
+                { id: 5, link: '/#', tag: 'PHP' },
+                { id: 6, link: '/#', tag: 'MySQL' },
             ],
             color: '#0084E9'
-        }   
+        }
     }
 ]
-export default function Lange(lange){
+export default function Lange(lange) {
     return langs.filter(item => item.lange === lange)
 }

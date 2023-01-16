@@ -46,46 +46,14 @@ export const index = (props) => {
                 <div className="imageWrapper shadow-md animate__animated animate__fadeIn wow" data-wow-duration="1.5s">
                     <img src="/images/cases/pbo/pbo_3.png" className="img-fluid w-100"/>
                 </div>
-                <div className="container py-5" style={{overflow: 'hidden'}}>
-                    <div className="my-4">
-                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1s">{langeText.archHeading}</h6>
-                        {
-                            langeText.arcTexts.map((el, idx) => <p key={idx} className="col-md-8 px-0 animate__animated animate__fadeInDown wow" data-wow-duration="1.2s">{el}</p>)
-                        }
-                    </div>
-                </div>
                 <div className="imageWrapper shadow-md animate__animated animate__fadeIn wow" data-wow-duration="1.5s">
                     <img src="/images/cases/pbo/pbo_4.png" className="img-fluid w-100"/>
-                </div>
-                <div className="container py-5" style={{overflow: 'hidden'}}>
-                    <div className="my-4">
-                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1s">{langeText.archHeading}</h6>
-                        {
-                            langeText.arcTexts.map((el, idx) => <p key={idx} className="col-md-8 px-0 animate__animated animate__fadeInDown wow" data-wow-duration="1.2s">{el}</p>)
-                        }
-                    </div>
                 </div>
                 <div className="imageWrapper shadow-md animate__animated animate__fadeIn wow" data-wow-duration="1.5s">
                     <img src="/images/cases/pbo/pbo_5.png" className="img-fluid w-100"/>
                 </div>
-                <div className="container py-5" style={{overflow: 'hidden'}}>
-                    <div className="my-4">
-                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1s">{langeText.archHeading}</h6>
-                        {
-                            langeText.arcTexts.map((el, idx) => <p key={idx} className="col-md-8 px-0 animate__animated animate__fadeInDown wow" data-wow-duration="1.2s">{el}</p>)
-                        }
-                    </div>
-                </div>
                 <div className="imageWrapper shadow-md animate__animated animate__fadeIn wow" data-wow-duration="1.5s">
                     <img src="/images/cases/pbo/pbo_6.png" className="img-fluid w-100"/>
-                </div>
-                <div className="container py-5" style={{overflow: 'hidden'}}>
-                    <div className="my-4">
-                        <h6 className="animate__animated animate__fadeInDown wow" data-wow-duration="1s">{langeText.archHeading}</h6>
-                        {
-                            langeText.arcTexts.map((el, idx) => <p key={idx} className="col-md-8 px-0 animate__animated animate__fadeInDown wow" data-wow-duration="1.2s">{el}</p>)
-                        }
-                    </div>
                 </div>
             </div>
             </>
