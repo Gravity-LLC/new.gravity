@@ -66,14 +66,14 @@ const langs = [
             aboutUs: () => (
                 <>
                     Мы веб-студия из Душанбе.<br/>
-                    Любим создавать красивые и интересные сайты.<br/>
+                    Любим создавать интересные и работающие веб-продукты.<br/>
                     Помогаем вашему бренду сиять в digital-вселенной.<br/>
                     Мы — Gravity Studio.
                 </>
             ),
             infoProjects: [
-                {num: 10, text: 'лет успешной работы'},
-                {num: 9, text: 'сотрудников в штате'},
+                {num: 12, text: 'лет успешной работы'},
+                {num: 11 + '+', text: 'сотрудников в штате'},
                 {num: 65, text: 'реализовынных проектов'},
             ],
             achievements:{
@@ -167,8 +167,8 @@ const langs = [
                 </>
             ),
             infoProjects: [
-                {num: 10, text: 'years of successful work'},
-                {num: 9, text: 'staff members'},
+                {num: 12, text: 'years of successful work'},
+                {num: 11 + '+', text: 'staff members'},
                 {num: 65+'+', text: 'completed projects'},
             ],
             achievements:{

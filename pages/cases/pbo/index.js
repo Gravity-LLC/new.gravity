@@ -16,6 +16,7 @@ export const index = (props) => {
                 <div className="container pt-5">
                     <div className="mb-5" style={{overflow: 'hidden'}}>
                         <h6 className="animate__animated animate__fadeInDown" data-wow-duration="1s">{langeText.customerHeading}</h6>
+                        <a href="https://www.pbo.eiti.com" target="_blanck" style={{color: "#0084E9"}}>www.pbo.eiti.com</a> 
                         {
                             langeText.customerTexts.map((el, idx) => <p className="col-md-7 px-0 animate__animated animate__fadeInDown " key={idx}>{el}</p>)
                         }

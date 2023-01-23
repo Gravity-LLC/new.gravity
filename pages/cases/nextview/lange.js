@@ -21,36 +21,28 @@ const langs = [
             '— Разработали информационные страницы «О нас» и «Контакты»;',
             '— Провели презентацию сайта клиенту и получили одобрение.',
         ],
-        feetBack:{
-            hashtags:[
-                {id: 1, link: '/#', tag: 'DevOps'},
-                {id: 2, link: '/#', tag: 'Kubernetes '},
-                {id: 3, link: '/#', tag: 'Bitrix'},
-                {id: 4, link: '/#', tag: 'PHP'},
-                {id: 5, link: '/#', tag: 'MySQL'},
-                {id: 5, link: '/#', tag: 'React'},
-                {id: 6, link: '/#', tag: 'Go'},
-                {id: 7, link: '/#', tag: 'Git'},
-                {id: 8, link: '/#', tag: 'Docker'},
-                {id: 9, link: '/#', tag: 'Helm'},
-                {id: 10, link: '/', tag: 'nginx'},
-                {id: 11, link: '/', tag: 'Aerospike'},
-                {id: 12, link: '/', tag: 'PostgreSQL'},
-                {id: 13, link: '/', tag: 'Cilium'},
-                {id: 14, link: '/#', tag: 'SSR'},
+        feetBack: {
+            hashtags: [
+                { id: 1, link: '/#', tag: 'UI/UX' },
+                { id: 2, link: '/#', tag: 'Html ' },
+                { id: 3, link: '/#', tag: 'Css' },
+                { id: 4, link: '/#', tag: 'JavaScript' },
+                { id: 5, link: '/#', tag: 'Laravel' },
+                { id: 5, link: '/#', tag: 'PHP' },
+                { id: 6, link: '/#', tag: 'MySQL' },
             ],
             color: '#7BBA3E'
-        }   
+        }
     },
     {
         lange: 'en',
         banText: 'NEXT VIEW',
         customerHeading: 'Customer:',
-        customerTexts: 'Marketing agency "NextView" is a successful marketing agency in the city of Dushanbe, which offers a wide range of services: from complex brand creation from scratch to organizing large-scale events.',
+        customerTexts: 'Marketing agency "NextView" is a successful marketing agency in Dushanbe, which offers a wide range of services: from complex creation of a brand from scratch to the organization of large-scale events.',
         tasksHeading: 'A task:',
         tasksTexts: [
-            `The agency "NextView", to achieve the ideal, lacked only the same bright site, visiting which a potential client had a desire to immediately go to sign a contract for marketing services offered by the company's specialists.`,
-            "It was necessary to create a presentable website, which will present information about the company's services, brand history and cases of trusting customers.",
+            `Agency "NextView", in order to achieve the ideal, lacked only the same bright site, having entered which a potential client had a desire to immediately go to sign a contract for receiving marketing services offered by the company's specialists.`,
+            `It was necessary to create a presentable website that would present information about the company's services, brand history and cases of trusting customers.`,
         ],
         implementionHeading: 'Implementation:',
         implementionTexts: [
@@ -64,28 +56,20 @@ const langs = [
             '— Developed information pages "About us" and "Contacts";',
             '— Conducted a presentation of the site to the client and received approval.',
         ],
-        feetBack:{
-            hashtags:[
-                {id: 1, link: '/#', tag: 'DevOps'},
-                {id: 2, link: '/#', tag: 'Kubernetes '},
-                {id: 3, link: '/#', tag: 'Bitrix'},
-                {id: 4, link: '/#', tag: 'PHP'},
-                {id: 5, link: '/#', tag: 'MySQL'},
-                {id: 5, link: '/#', tag: 'React'},
-                {id: 6, link: '/#', tag: 'Go'},
-                {id: 7, link: '/#', tag: 'Git'},
-                {id: 8, link: '/#', tag: 'Docker'},
-                {id: 9, link: '/#', tag: 'Helm'},
-                {id: 10, link: '/', tag: 'nginx'},
-                {id: 11, link: '/', tag: 'Aerospike'},
-                {id: 12, link: '/', tag: 'PostgreSQL'},
-                {id: 13, link: '/', tag: 'Cilium'},
-                {id: 14, link: '/#', tag: 'SSR'},
+        feetBack: {
+            hashtags: [
+                { id: 1, link: '/#', tag: 'UI/UX' },
+                { id: 2, link: '/#', tag: 'Html ' },
+                { id: 3, link: '/#', tag: 'Css' },
+                { id: 4, link: '/#', tag: 'JavaScript' },
+                { id: 5, link: '/#', tag: 'Laravel' },
+                { id: 5, link: '/#', tag: 'PHP' },
+                { id: 6, link: '/#', tag: 'MySQL' },
             ],
             color: '#7BBA3E'
-        }   
+        }
     },
 ]
-export default function Lange(lange){
+export default function Lange(lange) {
     return langs.filter(item => item.lange === lange)
 }

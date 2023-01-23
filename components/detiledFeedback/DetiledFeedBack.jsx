@@ -24,7 +24,7 @@ export const DetiledFeedBack = (props) => {
             </div>
             <div id="feedback" className={styles.feedBack}>
                 <div className="container">
-                    <p className="mb-sm-5 mb-4">{langeText.share}<a href="" style={{color: feetbackProp?.color}}>Facebook</a></p>
+                    <p className="mb-sm-5 mb-4">{langeText.share}<a href="https://www.facebook.com/gravity.tj" target='_blank' style={{color: feetbackProp?.color}}>Facebook</a></p>
                     <h2>{langeText.feedBack}</h2>
                     <p>{langeText.request}</p>
                     <button onClick={() => router.push('/startproject')} className="btn mt-4">{langeText.startProject}</button>

@@ -14,7 +14,7 @@ function Footer(props) {
                     <li><a href="https://www.facebook.com/gravity.tj" target="_blanck" className={colorText}>Facebook</a></li>
                     <li><a href="https://www.instagram.com/gravity.tj" target="_blanck" className={colorText}>Instagram</a></li>
                     <li><a href="https://t.me/gravity_tj" target="_blanck" className={colorText}>Telegram</a></li>
-                    <li className="d-sm-inline-block d-none"><a href="https://github.com/orgs/Gravity-LLC/dashboard" target="_blanck" className={colorText}>Github</a></li>
+                    {/* <li className="d-sm-inline-block d-none"><a href="https://github.com/orgs/Gravity-LLC/dashboard" target="_blanck" className={colorText}>Github</a></li> */}
                 </ul>
                 <div className="d-flex mt-sm-0 mt-3">
                     <button className={`btn pl-0 ${colorText}`} onClick={ruLange}>Rus</button>

@@ -16,8 +16,9 @@ export const index = (props) => {
                     <div className="container pt-5">
                         <div className="mb-5" style={{ overflow: 'hidden' }}>
                             <h6 className="animate__animated animate__fadeInDown">{langeText.customerHeading}</h6>
+                            <a href="http://www.shahribekhatar.tj/" target="_blanck" style={{ color: '#005395' }}>www.shahribekhatar.tj</a>
                             <p className="col-md-7 px-0 animate__animated animate__fadeInDown " >{langeText.customerTexts}</p>
-                            <a href="http://www.shahribekhatar.tj/" target="_blanck" style={{ color: '#009875' }}>www.shahribekhatar.tj</a>
+
                         </div>
                     </div>
                     <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.5s">
