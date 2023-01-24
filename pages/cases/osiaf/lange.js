@@ -14,7 +14,6 @@ const langs = [
             `— Верстка и программирование сайта.`,
             `— Удобная навигация сайта`,
             `— Добавление кнопок для перехода на социальные сети института "Открытое общество"`,
-
         ],
         feetBack: {
             hashtags: [
@@ -36,15 +35,14 @@ const langs = [
         customerTexts: 'The Open Society Institute - Assistance Fund in Tajikistan implements a number of initiatives to promote justice, education, public health and independent media.',
         tasksHeading: 'Tasks that were implemented when creating the site:',
         tasksTexts: 'The task was to develop a website in three language versions with a user-friendly interface so that it would be convenient for users to find the necessary information.',
-        Implementationheading: 'During the implementation of the project, we performed the following tasks:',
-        Implementationtexts: [
+        implementionHeading: 'During the implementation of the project, we performed the following tasks:',
+        implementionTexts: [
             `— An individual approach to creating a website based on the company's brandbook and provided photo materials;`,
             `— Creating individual icons and adding information.`,
             `— Setting up, selecting and filling the site with information;`,
             `— Layout and programming of the site.`,
             `— Easy site navigation`,
             `— Adding buttons to go to the social networks of the Open Society Institute`,
-
         ],
         feetBack: {
             hashtags: [

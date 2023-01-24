@@ -36,8 +36,8 @@ const langs = [
         customerTexts: 'Snowdrop is a website for fans of reading interesting, useful books and articles in a very user-friendly interface. Here you can also find books for children with exciting and interesting stories.',
         tasksHeading: 'Tasks that were implemented when creating the site:',
         tasksTexts: 'The task was to create an effective and user-friendly interface for the readers of the site, thereby impressing them with the ease of finding the right book and article to read.',
-        Implementationheading: 'During the implementation of the project, we performed the following tasks:',
-        Implementationtexts: [
+        implementionHeading: 'During the implementation of the project, we performed the following tasks:',
+        implementionTexts: [
             `— Development of a functional website design, in accordance with the corporate identity;`,
             `— Layout of the site in accordance with the approved design layouts`,
             `— Convenient reading format`,
