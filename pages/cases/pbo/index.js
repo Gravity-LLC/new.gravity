@@ -22,7 +22,7 @@ export const index = (props) => {
                         }
                     </div>
                 </div>
-                <div className="animate__animated animate__fadeIn wow" data-wow-duration="1.5s">
+                <div className="animate__animated animate__fadeIn">
                     <img src="/images/cases/pbo/pbo_1.png" className="img-fluid w-100"/>
                 </div>
                 <div className="container pt-5" style={{overflow: 'hidden'}}>

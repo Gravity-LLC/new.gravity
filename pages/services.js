@@ -53,7 +53,7 @@ function services(props) {
         <>
             <div className="container" id="services">
                 <div className="row" style={{overflow: 'hidden'}}>
-                    <h2 className="col-12 text-sm-left text-center">{langeArr.servicesH2}</h2>
+                    <h2 className="col-12 heading text-sm-left text-center ">{langeArr.servicesH2}</h2>
                     {
                         langeArr.services.map(item => {
                             

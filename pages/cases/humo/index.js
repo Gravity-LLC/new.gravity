@@ -22,7 +22,7 @@ export const index = (props) => {
                     </div>
                     
                 </div>
-                <div className="imageWrapper mt-5 animate__animated animate__slideInUp" data-wow-offset="50" data-wow-duration="1.2s">
+                <div className="imageWrapper mt-5 animate__animated animate__slideInUp">
                     <img src="/images/cases/humo/humo_1.png" className="img-fluid w-100" />
                 </div>
                 <div className="container pt-5" style={{overflow: 'hidden'}}>

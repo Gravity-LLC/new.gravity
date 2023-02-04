@@ -27,7 +27,7 @@ const langs = [
                 lists: [
                     'Корпоративные сайты, интернет-магазины',
                     'Мобильное приложение',
-                    'CRM/ERP-системы'
+                    'CRM-системы'
                 ]
             },
             {
@@ -43,12 +43,11 @@ const langs = [
             heading1: 'Офис',
             heading2: 'Начать проект',
             categories: [
-                'логотип',
-                'айдентика',
-                'сайт',
-                'приложение',
-                'презентация',
-                'другое'
+                'Проектирование',
+                'UX/UI дизайн',
+                'Мобильная разработка',
+                'Web-разработка',
+                'CRM системы',
             ],
             forms:{
                 name: 'Имя',
@@ -66,7 +65,7 @@ const langs = [
             aboutUs: () => (
                 <>
                     Мы веб-студия из Душанбе.<br/>
-                    Любим создавать интересные и работающие веб-продукты.<br/>
+                    Любим создавать интересные и работающие продукты.<br/>
                     Помогаем вашему бренду сиять в digital-вселенной.<br/>
                     Мы — Gravity Studio.
                 </>
@@ -122,7 +121,7 @@ const langs = [
                 lists: [
                     'Corporate websites, online stores',
                     'Mobile app',
-                    'CRM / ERP systems'
+                    'CRM systems'
                 ]
             },
             {
@@ -138,12 +137,11 @@ const langs = [
             heading1: 'Office',
             heading2: 'Start a project',
             categories: [
-                'the logo',
-                'identity',
-                'website',
-                'attachment',
-                'presentation',
-                'other'
+                'Design',
+                'UX/UI design',
+                'Mobile Development',
+                'Web Development',
+                'CRM systems',
             ],
             forms:{
                 name: 'Name',
@@ -161,7 +159,7 @@ const langs = [
             aboutUs: () => (
                 <>
                     We are a web studio from Dushanbe. <br/>
-                    We love to create beautiful and interesting websites. <br/>
+                    We love to create beautiful and interesting products. <br/>
                     Helping your brand to shine in the digital universe. <br/>
                     We are Gravity Studio.
                 </>

@@ -24,7 +24,7 @@ export const index = (props) => {
                             
                         </div>
                     </div>
-                    <div className="animate__animated animate__fadeIn wow" data-wow-duration="1.2s">
+                    <div className="animate__animated animate__fadeIn ">
                         <img src="/images/cases/tajset/tajset_1.png" className="img-fluid w-100" />
                     </div>
                     <div className="container" style={{ overflow: 'hidden' }}>

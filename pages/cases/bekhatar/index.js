@@ -21,7 +21,7 @@ export const index = (props) => {
 
                         </div>
                     </div>
-                    <div className="imageWrapper mt-5 animate__animated animate__slideInUp wow" data-wow-offset="50" data-wow-duration="1.5s">
+                    <div className="imageWrapper mt-5 animate__animated animate__slideInUp">
                         <img src="/images/cases/bekhatar/bekhatar_1.png" className="img-fluid w-100" />
                     </div>
 

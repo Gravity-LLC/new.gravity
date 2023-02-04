@@ -267,7 +267,12 @@ header .x:hover path{
 	z-index: 200;
 	background-color: white;
 }
-
+h2 {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 56px;
+    color: #262626;
+}
 h2.heading{
 	font-weight: 500;
 	font-size: 36px;
@@ -290,6 +295,13 @@ h2.heading{
 }
 #services .services-lists li{
 	margin-bottom: 18px;
+	display: flex;
+	grid-gap: 10px;
+}
+#services .services-lists li::before{
+	content: '—';
+	color: rgba(38,38,38,.5);
+
 }
 
 
@@ -316,8 +328,12 @@ h2.heading{
 #startProject ul li a:active{
 	color: rgba(0, 0, 0, .8);
 }
+#startProject .category {
+	display: flex;
+	grid-gap: 15px;
+}
 #startProject .btn{
-	padding: 8px 15px;
+	padding: 8px 12px;
 	border-radius: 0px;
 	background: #F0F2F5;
 	font-weight: 500;
@@ -326,7 +342,6 @@ h2.heading{
 	color: #868B94;
 	position: relative;
 	overflow: hidden;
-	margin-right: 15px;
 }
 #startProject .category input{
 	display: none;
@@ -576,6 +591,7 @@ h2.heading{
 	font-size: 18px;
 	line-height: 25px;
 	color: #262626;
+	margin-bottom: 0px;
 }
 #studio .achievements ul{
 	list-style: none;
@@ -643,8 +659,8 @@ h2.heading{
 }
 .detyledCase p, .detyledCase a{
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 18px;
+    line-height: 30px;
 	color: black;
 	overflow: hidden;
 }

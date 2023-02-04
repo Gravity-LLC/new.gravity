@@ -2,8 +2,8 @@ import {connect} from 'react-redux';
 import Lange from '../components/utils/language';
 import {Main} from '../layouts/index'
 
-function index(props) {
-    const [lang] = Lange(props.lange);
+function index({lange}) {
+    const [lang] = Lange(lange);
     const {homePage} = lang;
     
     return <Main content={()=>(
