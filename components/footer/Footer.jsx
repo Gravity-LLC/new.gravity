@@ -11,7 +11,7 @@ function Footer(props) {
             <div className="container-fluid">
                 <div className=" d-flex justify-content-between align-items-center flex-wrap">
                     <ul>
-                        <li className="d-sm-inline-block d-none"><a target="_blanck" href="https://www.linkedin.com/company/gravity-studio-tj">LinkedIn</a></li>
+                        {/* <li className="d-sm-inline-block d-none"><a target="_blanck" href="https://www.linkedin.com/company/gravity-studio-tj">LinkedIn</a></li> */}
                         <li><a href="https://www.facebook.com/gravity.tj" target="_blanck">Facebook</a></li>
                         <li><a href="https://www.instagram.com/gravity.tj" target="_blanck">Instagram</a></li>
                         <li><a href="https://t.me/gravity_tj" target="_blanck">Telegram</a></li>

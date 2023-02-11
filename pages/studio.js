@@ -22,7 +22,7 @@ export const studio = (props) => {
                 <div className="row position-relative" style={{minHeight: 'calc(100vh - 201px)'}}>
                     <div className="col-lg-8 col-md-7">
                         <div className="h-100 d-flex align-items-center">
-                            <h1 className="animate__animated animate__fadeIn wow" datat-wow-duration=".5s" data-wow-delay="1.1s">{studio.aboutUs()}</h1>
+                            <h3 className=" animate__animated animate__fadeIn wow" datat-wow-duration=".5s" data-wow-delay="1.1s">{studio.aboutUs()}</h3>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-5 d-md-flex align-items-center d-none justify-content-center">

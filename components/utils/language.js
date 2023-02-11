@@ -1,15 +1,15 @@
-import {casesEn, casesRu} from './cases_lange'
+import { casesEn, casesRu } from './cases_lange'
 const langs = [
     {
         lange: 'ru',
         office: 'Душанбе, пр. Рудаки 93/1',
-        navbarNav:[
-            {text:"Студия", link: '/studio'},
-            {text:"Кейсы", link: '/cases'},
-            {text:"Услуги", link: '/services'},
-            {text:"Начать проект", link: '/startproject'},
+        navbarNav: [
+            { text: "Студия", link: '/studio' },
+            { text: "Кейсы", link: '/cases' },
+            { text: "Услуги", link: '/services' },
+            { text: "Начать проект", link: '/startproject' },
         ],
-        homePage:{
+        homePage: {
             text: 'Создаем цифровые продукты, которые приносят пользу бизнесу наших клиентов.'
         },
         servicesH2: 'Услуги',
@@ -49,7 +49,7 @@ const langs = [
                 'Web-разработка',
                 'CRM системы',
             ],
-            forms:{
+            forms: {
                 name: 'Имя',
                 phone: 'Телефон',
                 send: 'Отправить',
@@ -64,25 +64,25 @@ const langs = [
         studio: {
             aboutUs: () => (
                 <>
-                    Мы веб-студия из Душанбе.<br/>
-                    Любим создавать интересные и работающие продукты.<br/>
-                    Помогаем вашему бренду сиять в digital-вселенной.<br/>
+                    Мы являемся лучшей IT студией Таджикистана. <br /><br />
+                    Любим создавать продающие, имиджевые сайты и предлагаем нестандартные решения. Внедряем в ваш бизнес комплекс digital-сервисов: начиная от проектирования и дизайн-концепций до многофункциональных CRM-систем.<br /><br />
+                    Помогаем вашему бренду сиять в digital-вселенной, соответствовать международным стандартам и привлекать клиентов вашей мечты. <br /><br />
                     Мы — Gravity Studio.
                 </>
             ),
             infoProjects: [
-                {num: 12, text: 'лет успешной работы'},
-                {num: 11 + '+', text: 'сотрудников в штате'},
-                {num: 65, text: 'реализовынных проектов'},
+                { num: 12, text: 'лет успешной работы' },
+                { num: 11 + '+', text: 'сотрудников в штате' },
+                { num: 65, text: 'реализовынных проектов' },
             ],
-            achievements:{
+            achievements: {
                 heading: 'Достижения',
                 lists: [
                     'Бизнес и сертифицированный партнер компании «1C-Битрикс»',
                     'Лидер продаж продуктов 1C-Битрикс в Таджикистане (2018/2019/2020) гг.',
                 ]
             },
-            partners:{
+            partners: {
                 text: 'Нам доверяют'
             },
             technologi: {
@@ -97,13 +97,13 @@ const langs = [
     {
         lange: 'en',
         office: 'Dushanbe, Rudaki Ave. 93/1',
-        navbarNav:[
-            {text:"Studio", link: '/studio'},
-            {text:"Cases", link: '/cases'},
-            {text:"Services", link: '/services'},
-            {text:"Start a project", link: '/startproject'},
+        navbarNav: [
+            { text: "Studio", link: '/studio' },
+            { text: "Cases", link: '/cases' },
+            { text: "Services", link: '/services' },
+            { text: "Start a project", link: '/startproject' },
         ],
-        homePage:{
+        homePage: {
             text: 'We create digital products that benefit the business of our clients.'
         },
         servicesH2: 'Services',
@@ -143,7 +143,7 @@ const langs = [
                 'Web Development',
                 'CRM systems',
             ],
-            forms:{
+            forms: {
                 name: 'Name',
                 phone: 'Telephone',
                 send: 'Send',
@@ -158,31 +158,31 @@ const langs = [
         studio: {
             aboutUs: () => (
                 <>
-                    We are a web studio from Dushanbe. <br/>
-                    We love to create beautiful and interesting products. <br/>
-                    Helping your brand to shine in the digital universe. <br/>
+                    We are the best IT studio in Tajikistan. <br /><br />
+                    We like to create selling, image sites and offer non-standard solutions. We introduce a set of digital services into your business: from design, from design and design concepts to multifunctional CRM systems.<br /><br />
+                    We help your brand shine in the digital universe, coordinate to expand and attract the customers of your dreams. <br /><br />
                     We are Gravity Studio.
                 </>
             ),
             infoProjects: [
-                {num: 12, text: 'years of successful work'},
-                {num: 11 + '+', text: 'staff members'},
-                {num: 65+'+', text: 'completed projects'},
+                { num: 12, text: 'years of successful work' },
+                { num: 11 + '+', text: 'staff members' },
+                { num: 65 + '+', text: 'completed projects' },
             ],
-            achievements:{
+            achievements: {
                 heading: 'Achievements',
                 lists: [
                     'Business and certified partner of 1C-Bitrix',
                     'The leader in sales of 1C-Bitrix products in Tajikistan (2018/2019/2020)',
                 ]
             },
-            partners:{
+            partners: {
                 text: 'We are trusted'
             },
             technologi: {
                 text: 'Technologies used',
             },
-            
+
         },
         cases: {
             headingText: 'Cases',
@@ -190,6 +190,6 @@ const langs = [
         }
     }
 ]
-export default function Lange(lange){
+export default function Lange(lange) {
     return langs.filter(item => item.lange === lange)
 }
